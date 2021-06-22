@@ -22,7 +22,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* button style */
 .btn, .navbar .btn-light,
-nav .btn-light {
+nav .btn-light, .banner-area .btn-light {
   -moz-user-select: none;
   background: #FF7000 none repeat scroll 0 0;
   border: medium none;
@@ -524,7 +524,7 @@ nav li:nth-child(5) a {
 }
 
 .features-area .point p {
-  margin-bottom: 97px;
+  margin-bottom: 90px;
 }
 
 .features-area .point1,
@@ -542,5 +542,31 @@ nav li:nth-child(5) a {
 .features-area .point6 {
   -webkit-transform: translateX(-54px);
           transform: translateX(-54px);
+}
+
+.banner-area {
+  background-color: #FF7000;
+  margin: 116px 374px 0px 376px;
+  border-radius: 20px;
+  height: 280px;
+}
+
+.banner-area > img {
+  width: 100%;
+}
+
+.banner-area .banner-info {
+  margin: 10px 0 0 0;
+  padding: 78px 45px;
+}
+
+.banner-area h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.banner-area .btn-light {
+  background-color: #fff;
+  color: #FF7000;
 }
 /*# sourceMappingURL=style.css.map */

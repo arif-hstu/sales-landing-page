@@ -425,7 +425,7 @@ nav {
 			margin-top: 0px;
 		}
 		p {
-			margin-bottom: 97px;
+			margin-bottom: 90px;
 		}
 	}
 	.point1,
@@ -439,6 +439,31 @@ nav {
 	.point4, 
 	.point6 {
 		transform: translateX(-54px);
+	}
+}
+
+// Banner Area
+.banner-area {
+	background-color: $color-primary;
+	margin: 116px 374px 0px 376px;
+	border-radius: 20px;
+	height: 280px;
+
+	& > img {
+		width: 100%;
+	}
+	.banner-info {
+		margin: 10px 0 0 0;
+		padding: 78px 45px;
+	}
+	h2 {
+		color: #fff;
+		margin: 0;
+	}
+	.btn-light {
+		@extend .btn;
+		background-color: #fff;
+		color: $color-primary;
 	}
 }
 
