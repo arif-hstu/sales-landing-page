@@ -400,3 +400,45 @@ nav {
 	}
 }
 
+// Features Area
+.features-area {
+	padding: 0 117px;
+	& > img {
+		right: 0;
+		z-index: -10;
+		transform: translateY(-205px);
+	}
+	.title {
+		width: 450px;
+		margin-top: 198px;
+		p {
+			margin-bottom: 0px;
+		}
+	}
+	.product-holder {
+		img {
+			margin-top: 80px;
+		}
+	}
+	.point {
+		h5 {
+			margin-top: 0px;
+		}
+		p {
+			margin-bottom: 97px;
+		}
+	}
+	.point1,
+	.point4 {
+		margin-top: 170px;
+	}
+	.point1, 
+	.point3 {
+		transform: translateX(54px);
+	}
+	.point4, 
+	.point6 {
+		transform: translateX(-54px);
+	}
+}
+

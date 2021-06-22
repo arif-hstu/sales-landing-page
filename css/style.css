@@ -494,4 +494,53 @@ nav li:nth-child(5) a {
 .how-works .card-holder2 > *:first-child {
   margin-top: 330px;
 }
+
+.features-area {
+  padding: 0 117px;
+}
+
+.features-area > img {
+  right: 0;
+  z-index: -10;
+  -webkit-transform: translateY(-205px);
+          transform: translateY(-205px);
+}
+
+.features-area .title {
+  width: 450px;
+  margin-top: 198px;
+}
+
+.features-area .title p {
+  margin-bottom: 0px;
+}
+
+.features-area .product-holder img {
+  margin-top: 80px;
+}
+
+.features-area .point h5 {
+  margin-top: 0px;
+}
+
+.features-area .point p {
+  margin-bottom: 97px;
+}
+
+.features-area .point1,
+.features-area .point4 {
+  margin-top: 170px;
+}
+
+.features-area .point1,
+.features-area .point3 {
+  -webkit-transform: translateX(54px);
+          transform: translateX(54px);
+}
+
+.features-area .point4,
+.features-area .point6 {
+  -webkit-transform: translateX(-54px);
+          transform: translateX(-54px);
+}
 /*# sourceMappingURL=style.css.map */
