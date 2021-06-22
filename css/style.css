@@ -55,7 +55,7 @@ nav .btn-light {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  overflow-y: hidden;
+  overflow-x: hidden;
   font-weight: normal;
   font-style: normal;
 }
@@ -141,6 +141,7 @@ h6 a {
 h1 {
   font-size: 100px;
   font-family: "Inter", sans-serif;
+  font-weight: 100;
 }
 
 h2 {
@@ -309,12 +310,16 @@ label {
   background: #444;
 }
 
+header {
+  height: 950px;
+  background-color: #F5F5F5;
+}
+
 header .bg-holder {
   margin-left: -15px;
 }
 
 header .bg-holder img:last-of-type {
-  z-index: -10;
   margin-left: auto;
   right: 0;
   top: 0;
@@ -323,6 +328,7 @@ header .bg-holder img:last-of-type {
 
 .navbar,
 nav {
+  z-index: 1;
   padding: 0px 135px 0px 150px;
   margin-top: 47px;
 }
@@ -342,7 +348,7 @@ nav .btn-light {
 .navbar a,
 nav a {
   margin-right: 52px;
-  color: orange;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -356,5 +362,31 @@ nav li:nth-child(4) a {
 .navbar li:nth-child(5) a,
 nav li:nth-child(5) a {
   margin-right: 0px;
+}
+
+.banner-info {
+  margin: 139px 240px;
+}
+
+.banner-info > *:first-child {
+  padding-right: 53.4px;
+}
+
+.banner-info > *:last-child {
+  padding-left: 53.4px;
+  margin-top: -18px;
+}
+
+.banner-info p {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #7A7D98;
+  margin-top: 30px;
+  line-height: 35px;
+}
+
+.banner-info img {
+  max-width: 622px;
+  max-height: 635px;
 }
 /*# sourceMappingURL=style.css.map */

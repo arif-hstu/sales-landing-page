@@ -36,7 +36,7 @@ body {
   // @include theme(color, $color-dark, $color-light);
   font-family: $font-para-family;
   font-size: $font-para-size;
-  overflow-y: hidden;
+  overflow-x: hidden;
   font-weight: normal;
   font-style: normal;
 }
@@ -111,19 +111,20 @@ h6 a {
 }
 h1 {
 	font-size: $font-heading-size;
-  font-family: $font-heading-family;
+ 	font-family: $font-heading-family;
+	font-weight: 100;
 }
 h2 {
 	font-size: $font-title-size;
-  font-family: $font-title-family;
+  	font-family: $font-title-family;
 }
 h3 {
 	font-size: $font-lg-subtitle-size;
-  font-family: $font-lg-subtitle-family;
+  	font-family: $font-lg-subtitle-family;
 }
 h4 {
 	font-size: $font-subtitle-size;
-  font-family: $font-subtitle-family;
+ 	 font-family: $font-subtitle-family;
 }
 h5 {
 	font-size: 30px;
@@ -246,11 +247,13 @@ label {
 
 // Header
 header {
+	height: 950px;
+	background-color: $color-secondary;
+
   .bg-holder {
     margin-left: -15px;
 
     img:last-of-type {
-      z-index: -10;
       margin-left: auto;
       right: 0;
       top: 0;   
@@ -262,6 +265,7 @@ header {
 
 .navbar,
 nav {
+	z-index: 1;
   padding: 0px 135px 0px 150px;
   margin-top: 47px;
   h3 {
@@ -275,7 +279,7 @@ nav {
   }
   a {
     margin-right: 52px;
-    color: orange;
+    color: #fff;
     font-family: $font-btn-family;
     font-size: $font-btn-size;
     font-weight: 500;
@@ -286,5 +290,31 @@ nav {
   li:nth-child(5) a {
     margin-right: 0px;
   }
+}
+
+.banner-info {
+	margin: 139px 240px;
+
+	& > *:first-child {
+		padding-right: 53.4px;
+	}
+
+	& > *:last-child {
+		padding-left: 53.4px;
+		margin-top: -18px;
+	}
+
+	p {
+		font-size: $font-lg-para-size;
+		font-family: $font-lg-para-family;
+		color: #7A7D98;
+		margin-top: 30px;
+		line-height: 35px;
+	}
+
+	img {
+		max-width: 622px;
+		max-height: 635px;
+	}
 }
 
