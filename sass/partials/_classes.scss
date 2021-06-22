@@ -1,0 +1,20 @@
+/* button style */
+.btn {
+	-moz-user-select: none;
+	background: $color-primary none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 33px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: $font-btn-size;
+	font-weight: 300;
+	letter-spacing: 1px; 
+	margin-bottom: 0;
+	padding: 21px 54px 20px 54px;
+	text-align: center;
+	touch-action: manipulation;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+}

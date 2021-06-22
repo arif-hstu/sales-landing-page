@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// theme
+$current-theme: light;
+
+// colors
+$color-light-bg: #ffffff;
+
+$color-primary: #FF7000;
+$color-secondary: #F5F5F5;
+$color-dark: #222754;
+
+$color-blue: #3C73F1;
+$color-gray: #7A7D98;
+$color-light-orange: #F9DEC9;
+
+
+// font
+$font-heading-family: 'Inter', sans-serif;
+$font-para-family: 'Roboto', sans-serif;
+$font-lg-para-family: 'Roboto', sans-serif;
+$font-title-family: 'Inter', sans-serif;
+$font-subtitle-family: 'Roboto', sans-serif;
+$font-btn-family: 'Roboto', sans-serif;
+$font-lg-subtitle-family: 'Inter', sans-serif;
+
+$font-heading-size: 100px;
+$font-para-size: 16px;
+$font-lg-para-size: 24px;
+$font-title-size: 50px;
+$font-subtitle-size: 30px;
+$font-lg-subtitle-size: 35px;
+$font-btn-size: 20px;
+
+$font-btn-wt: 300;
