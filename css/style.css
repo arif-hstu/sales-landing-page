@@ -569,4 +569,27 @@ nav li:nth-child(5) a {
   background-color: #fff;
   color: #FF7000;
 }
+
+.gallery-area {
+  margin: 130px 146px 0 154px;
+}
+
+.gallery-area .content-holder {
+  padding-top: 130px;
+  background-color: #F5F5F5;
+  border-radius: 70px;
+  height: 962px;
+}
+
+.gallery-area .content-holder p {
+  margin-bottom: 60px;
+}
+
+.gallery-area .content-holder .gallery {
+  margin: 0 211px;
+}
+
+.gallery-area .content-holder .gallery img {
+  width: 360px;
+}
 /*# sourceMappingURL=style.css.map */

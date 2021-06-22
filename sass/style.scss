@@ -21,7 +21,6 @@
 */
 
 @import "partials/variables";
-@import "partials/mixins";
 @import "partials/classes";
 
 * {
@@ -467,3 +466,22 @@ nav {
 	}
 }
 
+// Gallery Area
+.gallery-area {
+	margin: 130px 146px 0 154px;
+	.content-holder { 
+		padding-top: 130px;
+		background-color: $color-secondary; 
+		border-radius: 70px;
+		height: 962px;
+		p {
+			margin-bottom: 60px;
+		}
+		.gallery {
+			margin:0 211px;
+			img {
+				width: 360px;
+			}
+		}
+	}
+}
