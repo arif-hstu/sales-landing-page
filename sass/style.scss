@@ -117,19 +117,29 @@ h1 {
 h2 {
 	font-size: $font-title-size;
   	font-family: $font-title-family;
+	color: $color-dark;
+	font-weight: 100;
 }
 h3 {
 	font-size: $font-lg-subtitle-size;
   	font-family: $font-lg-subtitle-family;
-}
+	color: $color-primary;
+	font-weight: 600;
+	}
 h4 {
+	font-family: $font-subtitle-family;
 	font-size: $font-subtitle-size;
- 	 font-family: $font-subtitle-family;
 }
 h5 {
-	font-size: 30px;
+	font-family: $font-info-title-family;
+	font-size: $font-info-title-size;
+	color: $color-blue;
+	font-weight: 100;
 }
 h6 {
+	font-family: $font-info-title-family;
+	color: $color-blue;
+	font-weight: 100;
 	font-size: 25px;
 }
 ul {
@@ -315,6 +325,78 @@ nav {
 	img {
 		max-width: 622px;
 		max-height: 635px;
+	} 
+}
+
+// About Area 
+.about-area {
+	margin: 370.6px 133px 0 133px;
+	.info-holder1 {
+		padding-right: 223px;
+	}
+	img:first-of-type {
+		z-index: -10;
+		top: 20px; 
+	}
+	img:last-of-type {
+		margin-top: -47px;
+	}
+	h2 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	h5 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	p {
+		color: $color-gray;
+		margin-bottom: 35px;
+		margin-top: 0;
+	}
+	.info {
+		margin-bottom: 35px;
+		position: relative;
+		margin-left: 31px;
+		p {
+			margin-top: 25px;
+		}
+		&::before {
+			top: 5px;
+			left: -28px;
+			position: absolute;
+			height: 93px;
+			display: block;
+			width: 3px;
+			background: $color-primary;
+			content: '';
+		}
+	}
+}
+
+// How Works Area
+.how-works {
+	margin: 0px 146px 0 154px;
+	.content-holder { 
+		background-color: $color-secondary; 
+		border-radius: 70px;
+		height: 962px;
+	}
+	.info-holder {
+		padding: 298px 94px 298px 211px;
+	}
+	.card {
+		margin-left: -15px;
+	}
+	.card-holder > *:nth-child(1) {
+		margin-bottom: 40px;
+		margin-top: 80px;
+	}
+	.card-holder > *:nth-child(2) {
+		box-shadow: 0 50px 50px rgba($color: #C4C0C0, $alpha: 0.16);
+	}
+	.card-holder2 > *:first-child {
+		margin-top: 330px;
 	}
 }
 

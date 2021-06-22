@@ -44,6 +44,15 @@ nav .btn-light {
   white-space: nowrap;
 }
 
+.card {
+  padding: 50px 45.4px 50px 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+  height: 460px;
+  width: 376.36px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -147,23 +156,33 @@ h1 {
 h2 {
   font-size: 50px;
   font-family: "Inter", sans-serif;
+  color: #222754;
+  font-weight: 100;
 }
 
 h3 {
   font-size: 35px;
   font-family: "Inter", sans-serif;
+  color: #FF7000;
+  font-weight: 600;
 }
 
 h4 {
-  font-size: 30px;
   font-family: "Roboto", sans-serif;
+  font-size: 30px;
 }
 
 h5 {
-  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  color: #3C73F1;
+  font-weight: 100;
 }
 
 h6 {
+  font-family: "Inter", sans-serif;
+  color: #3C73F1;
+  font-weight: 100;
   font-size: 25px;
 }
 
@@ -388,5 +407,91 @@ nav li:nth-child(5) a {
 .banner-info img {
   max-width: 622px;
   max-height: 635px;
+}
+
+.about-area {
+  margin: 370.6px 133px 0 133px;
+}
+
+.about-area .info-holder1 {
+  padding-right: 223px;
+}
+
+.about-area img:first-of-type {
+  z-index: -10;
+  top: 20px;
+}
+
+.about-area img:last-of-type {
+  margin-top: -47px;
+}
+
+.about-area h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about-area h5 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.about-area p {
+  color: #7A7D98;
+  margin-bottom: 35px;
+  margin-top: 0;
+}
+
+.about-area .info {
+  margin-bottom: 35px;
+  position: relative;
+  margin-left: 31px;
+}
+
+.about-area .info p {
+  margin-top: 25px;
+}
+
+.about-area .info::before {
+  top: 5px;
+  left: -28px;
+  position: absolute;
+  height: 93px;
+  display: block;
+  width: 3px;
+  background: #FF7000;
+  content: '';
+}
+
+.how-works {
+  margin: 0px 146px 0 154px;
+}
+
+.how-works .content-holder {
+  background-color: #F5F5F5;
+  border-radius: 70px;
+  height: 962px;
+}
+
+.how-works .info-holder {
+  padding: 298px 94px 298px 211px;
+}
+
+.how-works .card {
+  margin-left: -15px;
+}
+
+.how-works .card-holder > *:nth-child(1) {
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+.how-works .card-holder > *:nth-child(2) {
+  -webkit-box-shadow: 0 50px 50px rgba(196, 192, 192, 0.16);
+          box-shadow: 0 50px 50px rgba(196, 192, 192, 0.16);
+}
+
+.how-works .card-holder2 > *:first-child {
+  margin-top: 330px;
 }
 /*# sourceMappingURL=style.css.map */
