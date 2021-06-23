@@ -1,0 +1,249 @@
+@media only screen and (max-width: 1800px) {
+    .how-works {
+        .card {
+            width: 98%;
+        }
+    }
+
+    .features-area {
+        .product-holder {
+            img {
+                width: 750px;
+            }
+        }
+        #point {
+            p {
+                margin-bottom: 43px;
+            }
+        }
+        .point1, 
+        .point3 {
+            transform: translateX(0px)!important;
+        }
+        .point4, 
+        .point6 {
+            transform: translateX(0px)!important;
+        }
+        .point5 {
+            transform: translateX(54px);
+        }
+        .point2 {
+            transform: translateX(-54px);
+        }
+    }
+
+    .banner-area {
+        .banner-info {
+            margin-top: 2% !important;
+            h2 {
+                font-size: 3.5vmin;
+                margin-left: -20px;
+            }
+            .btn {
+                margin-right: -20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .about-area {
+        .img-holder {
+            transform: translateY(10%);
+            & > *:nth-child(2) {
+                width: 50vw;
+            }
+        }
+        .info-holder1 {
+            padding-right: 100px;
+        }
+        .info {
+            &::before {
+                top: 5px;
+                left: -28px;
+                position: absolute;
+                height: 150px;
+                display: block;
+                width: 50px;
+                background: red;
+                content: '';
+            }
+        }
+    }
+    
+    .how-works {
+        .col1 {
+            .card {
+                width: 150%;
+                transform: translateX(15%);
+            }
+        }
+        .col2 {
+            display: none;
+        }
+    }
+
+    .banner-area {
+        .banner-info {
+            margin-top: 4% !important;
+            h2 {
+                font-size: 2.8vmin;
+                margin-left: -20px;
+            }
+            .btn {
+                margin-right: -20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    header {
+        nav {
+            .shop-now {
+                display: none;
+            }
+            li:nth-child(4) a {
+                margin-right: 0;
+            }
+        }
+        .main-product {
+            width: 40vw;
+        }
+    }
+
+    .about-area {
+        .img-holder {
+            & > *:first-child {
+                width: 35vw;
+            }
+            & > *:nth-child(2) {
+                width: 50vw;
+            }
+        }
+    }
+
+    .how-works {
+        .info-holder {
+            width: 120%;
+        }
+    }
+    .features-area {
+        .product-holder {
+            img {
+                width: 650px;
+            }
+        }
+        #point {
+            width: 110%;
+            p {
+                margin-bottom: 20px;
+            }
+        }
+        .point1,
+        .point4 {
+            margin-top: 150px !important;
+        }
+        .point1, 
+        .point3 {
+            transform: translateX(0px)!important;
+        }
+        .point4, 
+        .point6 {
+            transform: translateX(0px)!important;
+        }
+        .point5 {
+            transform: translateX(54px);
+        }
+        .point2 {
+            transform: translateX(-54px);
+        }
+    }
+
+    .banner-area {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+        .banner-info {
+            margin-top: 2.5% !important;
+            h2 {
+                font-size: 4vmin;
+                margin-left: -20px;
+            }
+            .btn {
+                margin-right: -20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    #point {
+        p {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .about-area {
+        .img-holder {
+            & > *:first-child {
+                width: 50vw;
+                left: 20%;
+            }
+            & > *:nth-child(2) {
+                width: 80vw;
+                left: 25%;
+            }
+        }
+    }
+
+    .how-works {
+        height: 1600px;
+        .content-holder { 
+        margin-top: 100px;
+        // height: 100%;
+        }
+        .info-holder {
+            padding: 0;
+            margin-top: -200px;
+            margin-left: -100px;
+            text-align: center;
+        }
+        .card-holder {
+            transform: translateY(-300px);
+            width: 110%;
+            margin-left: 25%;
+        }
+    }
+
+    .features-area {
+        #point {
+            text-align: center;
+            p {
+                margin-bottom: 43px;
+            }
+        }
+        .point5 {
+            transform: translateX(0px) !important;
+        }
+        .point2 {
+            transform: translateX(0px)!important;
+        }
+        .point4 {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+   
+}
+@media only screen and (min-width: 768px) {
+    
+}
+@media only screen and (min-width: 576px) {
+    
+}
+@media only screen and (max-width: 575px) {
+    
+}

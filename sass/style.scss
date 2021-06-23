@@ -22,6 +22,7 @@
 
 @import "partials/variables";
 @import "partials/classes";
+@import "partials/responsive";
 
 * {
   box-sizing: border-box;
@@ -35,7 +36,7 @@ body {
   // @include theme(color, $color-dark, $color-light);
   font-family: $font-para-family;
   font-size: $font-para-size;
-  overflow-x: hidden;
+//   overflow-x: hidden;
   font-weight: normal;
   font-style: normal;
 }
@@ -276,6 +277,7 @@ label {
 header {
 	height: 950px;
 	background-color: $color-secondary;
+	width: 100vw;
 
   .bg-holder {
     margin-left: -15px;
@@ -397,28 +399,34 @@ nav {
 	.content-holder { 
 		background-color: $color-secondary; 
 		border-radius: 70px;
-		height: 962px;
+		min-height: 962px;
+		img {
+			bottom: 0;
+		}
 	}
 	.info-holder {
 		padding: 298px 94px 298px 211px;
 	}
 	.card {
 		margin-left: -15px;
+		width: 100%;
 	}
 	.card-holder > *:nth-child(1) {
 		margin-bottom: 40px;
-		margin-top: 80px;
+		transform: translateY(80px);
 	}
 	.card-holder > *:nth-child(2) {
+		transform: translateY(80px);
 		box-shadow: 0 50px 50px rgba($color: #C4C0C0, $alpha: 0.16);
 	}
 	.card-holder2 > *:first-child {
-		margin-top: 330px;
+		transform: translateY(330px);
 	}
 }
 
 // Features Area
 .features-area {
+	width: 100vw;
 	padding: 0 117px;
 	& > img {
 		right: 0;
@@ -575,7 +583,7 @@ nav {
 				&.collapsed:after {
 					content: "\f0da";
 				}
-				.card-title {
+				a {
 					font-family: $font-btn-family;
 					font-size: $font-btn-size;
 					color: $color-dark;
@@ -602,6 +610,7 @@ nav {
 // Newsletter Area 
 .newsletter-area {
 	background-color: $color-secondary;
+	width: 100vw;
 	height: 806px;
 	margin-top: 130px;
 
@@ -644,9 +653,10 @@ nav {
 			background-color: #fff;
 			border: 1px solid #DDDDDD;
 			text-align: left;
-			cursor:text;
+			cursor: text;
 			position: absolute;
 			left: 0;
+			height: calc(100% - 8px);
 		}
 		.placeholder {
 			z-index: 99;
@@ -654,6 +664,7 @@ nav {
 			padding-left: 30px;
 		}
 		.btn {
+			@extend .btn;
 			position: absolute;
 			right: 0;
 			top: 0;
@@ -663,6 +674,7 @@ nav {
 
 // Contact Area
 .contact-area {
+	width: 100vw;
 	height: 707px;
 	margin-top: 539px;
 	h3 {
@@ -745,6 +757,7 @@ nav {
 // Footer Area
 footer {
 	background-color: $color-primary;
+	width: 100vw;
 	height: 531px;
 	padding: 130px 133.3px 0 133.3px;
 	li {
