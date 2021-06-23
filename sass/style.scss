@@ -72,7 +72,7 @@ a:focus,
 a:focus,
 a:hover,
 .footer -menu li a:hover {
-	color: #2B96CC;
+	color: #F9CA86;
 	text-decoration: none;
 }
 a,
@@ -691,6 +691,9 @@ footer {
 	background-color: $color-primary;
 	height: 531px;
 	padding: 130px 133.3px 0 133.3px;
+	li {
+		margin-bottom: 25px;
+	}
 	.footer-bg1 {
 		left: 0;
 		top: 0;
@@ -704,5 +707,77 @@ footer {
 			color: #fff;
 			margin-left: 15px;
 		}
+	}
+	.info-holder {
+		p {
+			margin-top: 60px;
+		}
+	}
+	.navigation {
+		width: 250px;
+		margin-top: 60px;
+	}
+	.info-holder3 {
+		margin-left: 41px;
+	}
+	.company {
+		width: 170px;
+		margin-left: 100px;
+		ul { 
+			margin-top: 60px;
+		}
+	}
+	.input-holder {
+		margin-top: 60px;
+		margin-bottom: 45px;
+		input {
+			background-color: #fff;
+			outline: none;
+			border: none;
+			height: 60px;
+			width: 100%;
+			border-radius: 5px;
+			padding-left: 20px;
+		}
+		.placeholder {
+			position: absolute;
+			top: 20.3px;
+			color: $color-gray;
+			left: 20px;
+			font-family: $font-para-family;
+			font-size: $font-para-size;
+		}
+		img {
+			height: 60px;
+			z-index: 99;
+			right: 0;
+			padding: 10px 31px;
+			background-color: #F9DEC9;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			cursor: pointer;
+		}
+	}
+	.brand-holder {
+		i {
+			font-size: 25px;
+			margin-right: 20px;
+			color: #dfdfdf;
+			cursor: pointer;
+			&:first-of-type {
+				color: #fff;
+			}
+		}
+	}
+	hr {
+		margin-top: 80.5;
+		margin-bottom: 30.5;
+		height: 1px;
+		opacity: 0.5;
+	}
+	.copyright {
+		color: #fff;
+		margin: 0;
+
 	}
 }

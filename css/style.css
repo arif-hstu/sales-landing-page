@@ -31,7 +31,7 @@ nav .btn-light, .banner-area .btn-light, .newsletter-area .input-holder .text-in
   cursor: pointer;
   display: inline-block;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 0;
   padding: 21px 54px 20px 54px;
@@ -102,7 +102,7 @@ a:focus,
 a:focus,
 a:hover,
 .footer -menu li a:hover {
-  color: #2B96CC;
+  color: #F9CA86;
   text-decoration: none;
 }
 
@@ -842,6 +842,10 @@ footer {
   padding: 130px 133.3px 0 133.3px;
 }
 
+footer li {
+  margin-bottom: 25px;
+}
+
 footer .footer-bg1 {
   left: 0;
   top: 0;
@@ -855,5 +859,85 @@ footer .footer-bg2 {
 footer .logo-holder h3 {
   color: #fff;
   margin-left: 15px;
+}
+
+footer .info-holder p {
+  margin-top: 60px;
+}
+
+footer .navigation {
+  width: 250px;
+  margin-top: 60px;
+}
+
+footer .info-holder3 {
+  margin-left: 41px;
+}
+
+footer .company {
+  width: 170px;
+  margin-left: 100px;
+}
+
+footer .company ul {
+  margin-top: 60px;
+}
+
+footer .input-holder {
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+footer .input-holder input {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  height: 60px;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+footer .input-holder .placeholder {
+  position: absolute;
+  top: 20.3px;
+  color: #7A7D98;
+  left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+footer .input-holder img {
+  height: 60px;
+  z-index: 99;
+  right: 0;
+  padding: 10px 31px;
+  background-color: #F9DEC9;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+footer .brand-holder i {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #dfdfdf;
+  cursor: pointer;
+}
+
+footer .brand-holder i:first-of-type {
+  color: #fff;
+}
+
+footer hr {
+  margin-top: 80.5;
+  margin-bottom: 30.5;
+  height: 1px;
+  opacity: 0.5;
+}
+
+footer .copyright {
+  color: #fff;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
