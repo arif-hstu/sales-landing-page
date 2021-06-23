@@ -44,7 +44,7 @@ nav .btn-light, .banner-area .btn-light, .newsletter-area .input-holder .text-in
   white-space: nowrap;
 }
 
-.card {
+.card, .contact-area .form-card {
   padding: 50px 45.4px 50px 40px;
   background-color: #fff;
   border-radius: 20px;
@@ -477,7 +477,7 @@ nav li:nth-child(5) a {
   padding: 298px 94px 298px 211px;
 }
 
-.how-works .card {
+.how-works .card, .how-works .contact-area .form-card, .contact-area .how-works .form-card {
   margin-left: -15px;
 }
 
@@ -660,7 +660,7 @@ nav li:nth-child(5) a {
   top: 529px;
   width: 1003px;
   z-index: 99;
-  right: 458px;
+  left: 458px;
 }
 
 .newsletter-area .info-holder {
@@ -710,5 +710,116 @@ nav li:nth-child(5) a {
 .newsletter-area .input-holder nav .btn-light, nav .newsletter-area .input-holder .btn-light, .newsletter-area .input-holder .banner-area .btn-light, .banner-area .newsletter-area .input-holder .btn-light, .newsletter-area .input-holder .text-input {
   position: absolute;
   right: 0;
+}
+
+.contact-area {
+  height: 707px;
+  margin-top: 539px;
+}
+
+.contact-area h3 {
+  margin: 0;
+}
+
+.contact-area h2 {
+  margin: 30px 0;
+}
+
+.contact-area p {
+  margin: 0;
+}
+
+.contact-area .bold-para {
+  color: #222754;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.contact-area .placeholder {
+  position: absolute;
+  top: 23.3px;
+  color: #7A7D98;
+  left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.contact-area .info-holder {
+  -webkit-transform: translateY(-78px);
+          transform: translateY(-78px);
+  height: 100%;
+  padding-left: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-area .form-holder {
+  margin-right: 350px;
+  -webkit-transform: translateY(-78px);
+          transform: translateY(-78px);
+}
+
+.contact-area .form-card {
+  height: 655px;
+  width: 100%;
+  padding: 50px 40px;
+  -webkit-box-shadow: 0 0 50px rgba(168, 168, 168, 0.16);
+          box-shadow: 0 0 50px rgba(168, 168, 168, 0.16);
+}
+
+.contact-area .form-card .input-holder1,
+.contact-area .form-card .input-holder2 {
+  position: relative;
+}
+
+.contact-area .form-card i {
+  position: absolute;
+  right: 20px;
+  font-size: 18.75px;
+  color: #7A7D98;
+  top: 23.3px;
+}
+
+.contact-area .form-card h2 {
+  margin-bottom: 40px;
+}
+
+.contact-area .form-card input {
+  background-color: #F5F5F5;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  height: 65px;
+  padding: 23px 20px;
+}
+
+.contact-area .form-card input::-webkit-input-placeholder {
+  color: #7A7D98;
+}
+
+.contact-area .form-card input:-ms-input-placeholder {
+  color: #7A7D98;
+}
+
+.contact-area .form-card input::-ms-input-placeholder {
+  color: #7A7D98;
+}
+
+.contact-area .form-card input::placeholder {
+  color: #7A7D98;
+}
+
+.contact-area .form-card .input-holder2 input {
+  height: 160px;
 }
 /*# sourceMappingURL=style.css.map */
