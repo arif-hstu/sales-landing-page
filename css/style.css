@@ -325,7 +325,11 @@ label {
 
 /* scrollUp */
 #scrollUp {
-  background: #7DBA2F;
+  background: #FF8D33;
+  background-image: url(../img/icons/up-arrow.svg);
+  background-size: 15px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 35px;
   width: 35px;
   right: 50px;
@@ -336,10 +340,12 @@ label {
   border-radius: 50%;
   font-size: 20px;
   line-height: 34px;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
 }
 
 #scrollUp:hover {
-  background: #444;
+  background: #FF7000;
 }
 
 header {
@@ -614,6 +620,7 @@ nav li:nth-child(5) a {
 
 .faq-area {
   margin: 130.4px 138px 0 207px;
+  height: 942px;
 }
 
 .faq-area .info-holder1 {
@@ -661,6 +668,106 @@ nav li:nth-child(5) a {
   width: 3px;
   background: #FF7000;
   content: '';
+}
+
+.faq-area .accordion-holder .panel-group {
+  margin-top: 10px;
+}
+
+.faq-area .accordion-holder a:link {
+  text-decoration: none;
+}
+
+.faq-area .accordion-holder .panel {
+  background-color: #F5F5F5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 0px solid transparent;
+  border-radius: 0;
+  margin: 0;
+}
+
+.faq-area .accordion-holder .panel-default {
+  border: 0;
+}
+
+.faq-area .accordion-holder .accordion-wrap .panel-heading {
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.faq-area .accordion-holder h4 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.faq-area .accordion-holder .panel .panel-heading a.collapsed {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #222754;
+  font-weight: 600;
+  display: block;
+  padding: 12px 0px;
+  background-color: #F5F5F5;
+  border-top: 0px;
+}
+
+.faq-area .accordion-holder .panel .panel-heading a {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #3C73F1;
+  font-weight: 600;
+  display: block;
+  padding: 12px 0px;
+  background-color: #F5F5F5;
+  border-top: 0px;
+}
+
+.faq-area .accordion-holder .accordion-wrap .panel .panel-heading a {
+  font-size: 14px;
+}
+
+.faq-area .accordion-holder .panel-group .panel-heading {
+  border-top: 0;
+  padding-top: 0;
+  padding: 29px 0 0 25px;
+  background: #fff;
+}
+
+.faq-area .accordion-holder .panel-group .panel-collapse > .panel-body {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: -8px;
+  padding: 29px 0px 29px 25px;
+  background: #fff;
+  background-color: #F5F5F5;
+}
+
+.faq-area .accordion-holder .panel .panel-heading a.collapsed:after {
+  content: " ";
+  height: 100%;
+  border-left: 3px solid red;
+}
+
+.faq-area .accordion-holder .panel .panel-heading a:after {
+  content: " ";
+  height: 100%;
+  border-left: 3px solid red;
+  width: 5px solid red;
+}
+
+.faq-area .accordion-holder .panel .panel-heading a.collapsed:after {
+  font-family: 'FontAwesome';
+  font-size: 15px;
+  width: 36px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #F1F1F1;
+  float: left;
+  margin-left: -31px;
+  margin-top: -12px;
+  margin-right: 15px;
 }
 
 .newsletter-area {
@@ -711,18 +818,27 @@ nav li:nth-child(5) a {
 }
 
 .newsletter-area .input-holder .text-input {
+  border-radius: 40px;
   width: 700px;
   background-color: #fff;
+  border: 1px solid #DDDDDD;
   text-align: left;
   cursor: text;
   position: absolute;
   left: 0;
 }
 
+.newsletter-area .input-holder .placeholder {
+  z-index: 99;
+  top: 25px;
+  padding-left: 30px;
+}
+
 .newsletter-area .input-holder .btn, .newsletter-area .input-holder .navbar .btn-light, .navbar .newsletter-area .input-holder .btn-light,
 .newsletter-area .input-holder nav .btn-light, nav .newsletter-area .input-holder .btn-light, .newsletter-area .input-holder .banner-area .btn-light, .banner-area .newsletter-area .input-holder .btn-light, .newsletter-area .input-holder .text-input {
   position: absolute;
   right: 0;
+  top: 0;
 }
 
 .contact-area {
@@ -931,7 +1047,7 @@ footer .brand-holder i:first-of-type {
 
 footer hr {
   margin-top: 80.5;
-  margin-bottom: 30.5;
+  margin-bottom: 26px;
   height: 1px;
   opacity: 0.5;
 }
