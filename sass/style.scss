@@ -491,7 +491,7 @@ nav {
 	}
 }
 
-// About Area 
+// Faq Area 
 .faq-area {
 	margin: 130.4px 138px 0 207px;
 	.info-holder1 {
@@ -543,4 +543,51 @@ nav {
 	background-color: $color-secondary;
 	height: 806px;
 	margin-top: 130px;
+
+	.bg-holder {
+		& > *:last-child {
+			top: 529px;
+			width: 1003px;
+			z-index: 99;
+			right: 458px;
+		}
+	}
+
+	.info-holder {
+		margin-top: 130px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h2 {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		p {
+			width: 450px;
+			color: $color-gray;
+			margin-bottom: 0px;
+			margin-top: 0;
+		}
+	}
+
+	.input-holder {
+		text-align: center;
+		position: relative;
+		margin-top: 50px;
+		height: 80px;
+		width: 700px;
+		.text-input {
+			@extend .btn;
+			width: 700px;
+			background-color: #fff;
+			text-align: left;
+			cursor:text;
+			position: absolute;
+			left: 0;
+		}
+		.btn {
+			position: absolute;
+			right: 0;
+		}
+	}
 }
