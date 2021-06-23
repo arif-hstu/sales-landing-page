@@ -203,6 +203,19 @@ p {
   margin-bottom: 40px;
 }
 
+.light-para {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.light-title {
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 100;
+}
+
 hr {
   border-bottom: 1px solid #eceff8;
   border-top: 0 none;
@@ -821,5 +834,26 @@ nav li:nth-child(5) a {
 
 .contact-area .form-card .input-holder2 input {
   height: 160px;
+}
+
+footer {
+  background-color: #FF7000;
+  height: 531px;
+  padding: 130px 133.3px 0 133.3px;
+}
+
+footer .footer-bg1 {
+  left: 0;
+  top: 0;
+}
+
+footer .footer-bg2 {
+  right: -212px;
+  top: -189px;
+}
+
+footer .logo-holder h3 {
+  color: #fff;
+  margin-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */

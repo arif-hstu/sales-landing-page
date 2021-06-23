@@ -155,6 +155,19 @@ p {
 	color: $color-gray;
 	margin-bottom: 40px;
 }
+.light-para {
+	font-family: $font-para-family;
+	font-size: $font-para-size;
+	color: #fff;
+
+}
+.light-title {
+	font-family: $font-lg-subtitle-family;
+	font-size: $font-lg-subtitle-size;
+	color: #fff;
+	font-weight: 100;
+}
+
 hr {
 	border-bottom: 1px solid #eceff8;
 	border-top: 0 none;
@@ -592,6 +605,7 @@ nav {
 	}
 }
 
+// Contact Area
 .contact-area {
 	height: 707px;
 	margin-top: 539px;
@@ -668,6 +682,27 @@ nav {
 			input {
 				height: 160px;
 			}
+		}
+	}
+}
+
+// Footer Area
+footer {
+	background-color: $color-primary;
+	height: 531px;
+	padding: 130px 133.3px 0 133.3px;
+	.footer-bg1 {
+		left: 0;
+		top: 0;
+	}
+	.footer-bg2 {
+		right: -212px;
+		top: -189px;
+	}
+	.logo-holder {
+		h3 {
+			color: #fff;
+			margin-left: 15px;
 		}
 	}
 }
