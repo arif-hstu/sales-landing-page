@@ -558,39 +558,46 @@ nav {
 	.accordion-holder {
 		.accordion {
 			.collapse {
-				margin-bottom: 20px;
+				margin-bottom: 30px;
 			}
 			.card-header {
 				background-color: $color-secondary;
 				border: none;
-				margin-top: 20px;
+				margin-top: 30px;
+				height: 82px;
 				&:after {
-				  font-family: 'FontAwesome';
-				  content: "\f068";
+				  font-family: 'Font Awesome 5 Free';
+				  content: "\f0d7";
+				  font-weight: 900;
 				  float: right;
 				}
 			  
 				&.collapsed:after {
-					content: "\f107";
-					font-family: 'Font Awesome 5 Free';
-					font-weight: 900;
+					content: "\f0da";
+				}
+				.card-title {
+					font-family: $font-btn-family;
+					font-size: $font-btn-size;
+					color: $color-dark;
+					font-weight: 600;
 				}
 			}
 			.card-body {
 				background-color: $color-secondary;
 				color: $color-gray;
+				position: relative;
+				&:after {
+					content: "";
+					height: calc(100% + 80px);
+					border-left: 3px solid $color-primary;
+					position: absolute;
+					left: 0;
+					top: -80px;
+				}
 			}
 		}
 	}
 }
-
-// &:after {
-// 	content: "\f107";
-// 	font-family: 'Font Awesome 5 Free';
-// 	font-weight: 900;
-// 	float: right;
-//   }
-
 
 // Newsletter Area 
 .newsletter-area {

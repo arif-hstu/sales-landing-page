@@ -672,30 +672,47 @@ nav li:nth-child(5) a {
 }
 
 .faq-area .accordion-holder .accordion .collapse {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .faq-area .accordion-holder .accordion .card-header {
   background-color: #F5F5F5;
   border: none;
-  margin-top: 20px;
+  margin-top: 30px;
+  height: 82px;
 }
 
 .faq-area .accordion-holder .accordion .card-header:after {
-  font-family: 'FontAwesome';
-  content: "\f068";
+  font-family: 'Font Awesome 5 Free';
+  content: "\f0d7";
+  font-weight: 900;
   float: right;
 }
 
 .faq-area .accordion-holder .accordion .card-header.collapsed:after {
-  content: "\f107";
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
+  content: "\f0da";
+}
+
+.faq-area .accordion-holder .accordion .card-header .card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #222754;
+  font-weight: 600;
 }
 
 .faq-area .accordion-holder .accordion .card-body {
   background-color: #F5F5F5;
   color: #7A7D98;
+  position: relative;
+}
+
+.faq-area .accordion-holder .accordion .card-body:after {
+  content: "";
+  height: calc(100% + 80px);
+  border-left: 3px solid #FF7000;
+  position: absolute;
+  left: 0;
+  top: -80px;
 }
 
 .newsletter-area {
