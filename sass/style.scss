@@ -556,192 +556,41 @@ nav {
 		}
 	}
 	.accordion-holder {
-		.panel-group {
-			margin-top: 10px;
-		}
-		
-		a:link {
-			text-decoration: none
-		}
-		
-		.panel {
-			background-color: #F5F5F5;
-			box-shadow: none;
-			border-bottom: 0px solid transparent;
-			border-radius: 0;
-			margin: 0;
-		}
-		
-		.panel-default {
-			border: 0
-		}
-		
-		.accordion-wrap {
-			.panel-heading {
-				padding: 0px;
-				border-radius: 0px;
+		.accordion {
+			.collapse {
+				margin-bottom: 20px;
 			}
-		}
-		
-		h4 {
-			font-size: 18px;
-			line-height: 24px
-		}
-		
-		.panel {
-			.panel-heading {
-				a.collapsed {
-					font-family: $font-btn-family;
-					font-size: $font-btn-size;
-					color: $color-dark;
-					font-weight: 600;
-					display: block;
-					padding: 12px 0px;
-					background-color: $color-secondary;
-					border-top: 0px
+			.card-header {
+				background-color: $color-secondary;
+				border: none;
+				margin-top: 20px;
+				&:after {
+				  font-family: 'FontAwesome';
+				  content: "\f068";
+				  float: right;
+				}
+			  
+				&.collapsed:after {
+					content: "\f107";
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
 				}
 			}
-		}
-		
-		.panel {
-			.panel-heading {
-				a {
-					font-family: $font-btn-family;
-					font-size: $font-btn-size;
-					color: #3C73F1;
-					font-weight: 600;
-					display: block;
-					padding: 12px 0px;
-					background-color: $color-secondary;
-					border-top: 0px
-				}
-			}
-		}
-		
-		.accordion-wrap {
-			.panel {
-				.panel-heading {
-					a {
-						font-size: 14px
-					}
-				}
-			}
-		}
-		
-		.panel-group {
-			.panel-heading {
-				border-top: 0;
-				padding-top: 0;
-				padding: 29px 0 0 25px;
-				background: #fff;
-			}
-		}
-		
-		.panel-group {
-			.panel-collapse {
-				& > .panel-body {
-					border-top: 0;
-					padding-top: 0;
-					margin-top: -8px;
-					padding: 29px 0px 29px 25px;
-					background: #fff;
-					background-color: $color-secondary;
-				}
-			}
-		}
-
-		.panel {
-			.panel-heading {
-				a.collapsed:after {
-					content: " ";
-					height: 100%;
-					border-left: 3px solid red;
-				}
-			}
-		}
-		
-		// .panel {
-		// 	.panel-heading {
-		// 		a:after{
-		// 			font-family: 'FontAwesome';
-		// 			font-size: 15px;
-		// 			width: 36px;
-		// 			line-height: 48px;
-		// 			text-align: center;
-		// 			background: #c42020;
-		// 			float: left;
-		// 			margin-left: -31px;
-		// 			margin-top: -12px;
-		// 			margin-right: 15px
-		// 		}
-		// 	}
-		// }
-		
-		// .panel {
-		// 	.panel-heading {
-		// 		// a.collapsed:after {
-		// 		// 	font-family: 'FontAwesome';
-		// 		// 	font-size: 15px;
-		// 		// 	width: 36px;
-		// 		// 	line-height: 48px;
-		// 		// 	text-align: center;
-		// 		// 	background: #F1F1F1;
-		// 		// 	float: left;
-		// 		// 	margin-left: -31px;
-		// 		// 	margin-top: -12px;
-		// 		// 	margin-right: 15px
-		// 		// }
-		// 	}
-		// }
-		
-		.panel {
-			.panel-heading {
-				a:after {
-					content: " ";
-					height: 100%;
-					border-left: 3px solid red;
-					width: 5px solid red;
-				}
-			}
-		}
-		
-		.panel {
-			.panel-heading {
-				a:after {
-					// font-family: 'FontAwesome';
-					// font-size: 15px;
-					// width: 36px;
-					// height: 48px;
-					// line-height: 48px;
-					// text-align: center;
-					// background: #74ff02;
-					// float: left;
-					// margin-left: -31px;
-					// margin-top: -12px;
-					// margin-right: 15px
-				}
-			}
-		}
-
-		.panel {
-			.panel-heading {
-				a.collapsed:after {
-					font-family: 'FontAwesome';
-					font-size: 15px;
-					width: 36px;
-					height: 48px;
-					line-height: 48px;
-					text-align: center;
-					background: #F1F1F1;
-					float: left;
-					margin-left: -31px;
-					margin-top: -12px;
-					margin-right: 15px
-				}
+			.card-body {
+				background-color: $color-secondary;
+				color: $color-gray;
 			}
 		}
 	}
 }
+
+// &:after {
+// 	content: "\f107";
+// 	font-family: 'Font Awesome 5 Free';
+// 	font-weight: 900;
+// 	float: right;
+//   }
+
 
 // Newsletter Area 
 .newsletter-area {

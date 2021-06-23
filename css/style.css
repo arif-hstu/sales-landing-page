@@ -20,6 +20,7 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("../../css/fontawesome-all.min.css");
 /* button style */
 .btn, .navbar .btn-light,
 nav .btn-light, .banner-area .btn-light, .newsletter-area .input-holder .text-input {
@@ -670,104 +671,31 @@ nav li:nth-child(5) a {
   content: '';
 }
 
-.faq-area .accordion-holder .panel-group {
-  margin-top: 10px;
+.faq-area .accordion-holder .accordion .collapse {
+  margin-bottom: 20px;
 }
 
-.faq-area .accordion-holder a:link {
-  text-decoration: none;
-}
-
-.faq-area .accordion-holder .panel {
+.faq-area .accordion-holder .accordion .card-header {
   background-color: #F5F5F5;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-bottom: 0px solid transparent;
-  border-radius: 0;
-  margin: 0;
+  border: none;
+  margin-top: 20px;
 }
 
-.faq-area .accordion-holder .panel-default {
-  border: 0;
-}
-
-.faq-area .accordion-holder .accordion-wrap .panel-heading {
-  padding: 0px;
-  border-radius: 0px;
-}
-
-.faq-area .accordion-holder h4 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.faq-area .accordion-holder .panel .panel-heading a.collapsed {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  color: #222754;
-  font-weight: 600;
-  display: block;
-  padding: 12px 0px;
-  background-color: #F5F5F5;
-  border-top: 0px;
-}
-
-.faq-area .accordion-holder .panel .panel-heading a {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  color: #3C73F1;
-  font-weight: 600;
-  display: block;
-  padding: 12px 0px;
-  background-color: #F5F5F5;
-  border-top: 0px;
-}
-
-.faq-area .accordion-holder .accordion-wrap .panel .panel-heading a {
-  font-size: 14px;
-}
-
-.faq-area .accordion-holder .panel-group .panel-heading {
-  border-top: 0;
-  padding-top: 0;
-  padding: 29px 0 0 25px;
-  background: #fff;
-}
-
-.faq-area .accordion-holder .panel-group .panel-collapse > .panel-body {
-  border-top: 0;
-  padding-top: 0;
-  margin-top: -8px;
-  padding: 29px 0px 29px 25px;
-  background: #fff;
-  background-color: #F5F5F5;
-}
-
-.faq-area .accordion-holder .panel .panel-heading a.collapsed:after {
-  content: " ";
-  height: 100%;
-  border-left: 3px solid red;
-}
-
-.faq-area .accordion-holder .panel .panel-heading a:after {
-  content: " ";
-  height: 100%;
-  border-left: 3px solid red;
-  width: 5px solid red;
-}
-
-.faq-area .accordion-holder .panel .panel-heading a.collapsed:after {
+.faq-area .accordion-holder .accordion .card-header:after {
   font-family: 'FontAwesome';
-  font-size: 15px;
-  width: 36px;
-  height: 48px;
-  line-height: 48px;
-  text-align: center;
-  background: #F1F1F1;
-  float: left;
-  margin-left: -31px;
-  margin-top: -12px;
-  margin-right: 15px;
+  content: "\f068";
+  float: right;
+}
+
+.faq-area .accordion-holder .accordion .card-header.collapsed:after {
+  content: "\f107";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.faq-area .accordion-holder .accordion .card-body {
+  background-color: #F5F5F5;
+  color: #7A7D98;
 }
 
 .newsletter-area {
