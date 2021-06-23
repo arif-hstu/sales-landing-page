@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="806" viewBox="0 0 1920 806">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_442" data-name="Rectangle 442" width="1920" height="806" transform="translate(0 6978)" fill="#dcb8b8"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.887" x2="0.5" y2="0.053" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8a00"/>
+      <stop offset="1" stop-color="#ffbc00"/>
+    </linearGradient>
+  </defs>
+  <g id="newsletter-bg" transform="translate(0 -6978)" clip-path="url(#clip-path)">
+    <circle id="Ellipse_615" data-name="Ellipse 615" cx="272.864" cy="272.864" r="272.864" transform="translate(1310 6696.772)" opacity="0.1" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_617" data-name="Ellipse 617" cx="272.864" cy="272.864" r="272.864" transform="translate(-74 7450)" opacity="0.1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

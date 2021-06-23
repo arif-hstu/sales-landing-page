@@ -473,15 +473,74 @@ nav {
 		padding-top: 130px;
 		background-color: $color-secondary; 
 		border-radius: 70px;
-		height: 962px;
+		height: 1266px;
+		.gallery-bg {
+			top: 0;
+		}
 		p {
 			margin-bottom: 60px;
 		}
 		.gallery {
 			margin:0 211px;
-			img {
-				width: 360px;
+			.img-holder-1,
+			.img-holder-2,
+			.img-holder-3 {
+				height: 740px;
 			}
 		}
 	}
+}
+
+// About Area 
+.faq-area {
+	margin: 130.4px 138px 0 207px;
+	.info-holder1 {
+		padding-right: 141.1px;
+	}
+	.img-holder {
+		img {
+			width: 818.9px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	h2 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	h5 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	p {
+		color: $color-gray;
+		margin-bottom: 35px;
+		margin-top: 0;
+	}
+	.info {
+		margin-bottom: 35px;
+		position: relative;
+		margin-left: 31px;
+		p {
+			margin-top: 25px;
+		}
+		&::before {
+			top: 5px;
+			left: -28px;
+			position: absolute;
+			height: 93px;
+			display: block;
+			width: 3px;
+			background: $color-primary;
+			content: '';
+		}
+	}
+}
+
+// Newsletter Area 
+.newsletter-area {
+	background-color: $color-secondary;
+	height: 806px;
+	margin-top: 130px;
 }
