@@ -609,6 +609,7 @@ nav li:nth-child(5) a {
 }
 
 .banner-area .banner-info {
+  width: 100%;
   margin: 0;
   padding: 0px 45px;
 }
