@@ -1126,9 +1126,6 @@ footer .copyright {
   .banner-area .banner-info .btn, .banner-area .banner-info .btn-light, .banner-area .banner-info .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .banner-area .banner-info .text-input {
     margin-right: -20px;
   }
-  .newsletter-area .input-holder {
-    width: 80%;
-  }
   .contact-area .info-holder {
     padding-left: 133px;
   }
