@@ -54,205 +54,6 @@ nav .btn-light, .banner-area .btn-light, .newsletter-area .input-holder .text-in
   width: 376.36px;
 }
 
-@media only screen and (max-width: 1800px) {
-  .how-works .card, .how-works .contact-area .form-card, .contact-area .how-works .form-card {
-    width: 98%;
-  }
-  .features-area .product-holder img {
-    width: 750px;
-  }
-  .features-area #point p {
-    margin-bottom: 43px;
-  }
-  .features-area .point1,
-  .features-area .point3 {
-    -webkit-transform: translateX(0px) !important;
-            transform: translateX(0px) !important;
-  }
-  .features-area .point4,
-  .features-area .point6 {
-    -webkit-transform: translateX(0px) !important;
-            transform: translateX(0px) !important;
-  }
-  .features-area .point5 {
-    -webkit-transform: translateX(54px);
-            transform: translateX(54px);
-  }
-  .features-area .point2 {
-    -webkit-transform: translateX(-54px);
-            transform: translateX(-54px);
-  }
-  .banner-area .banner-info {
-    margin-top: 2% !important;
-  }
-  .banner-area .banner-info h2 {
-    font-size: 3.5vmin;
-    margin-left: -20px;
-  }
-  .banner-area .banner-info .btn, .banner-area .banner-info .btn-light, .banner-area .banner-info .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .banner-area .banner-info .text-input {
-    margin-right: -20px;
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .about-area .img-holder {
-    -webkit-transform: translateY(10%);
-            transform: translateY(10%);
-  }
-  .about-area .img-holder > *:nth-child(2) {
-    width: 50vw;
-  }
-  .about-area .info-holder1 {
-    padding-right: 100px;
-  }
-  .about-area .info::before {
-    top: 5px;
-    left: -28px;
-    position: absolute;
-    height: 150px;
-    display: block;
-    width: 50px;
-    background: red;
-    content: '';
-  }
-  .how-works .col1 .card, .how-works .col1 .contact-area .form-card, .contact-area .how-works .col1 .form-card {
-    width: 150%;
-    -webkit-transform: translateX(15%);
-            transform: translateX(15%);
-  }
-  .how-works .col2 {
-    display: none;
-  }
-  .banner-area .banner-info {
-    margin-top: 4% !important;
-  }
-  .banner-area .banner-info h2 {
-    font-size: 2.8vmin;
-    margin-left: -20px;
-  }
-  .banner-area .banner-info .btn, .banner-area .banner-info .btn-light, .banner-area .banner-info .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .banner-area .banner-info .text-input {
-    margin-right: -20px;
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-  header nav .shop-now {
-    display: none;
-  }
-  header nav li:nth-child(4) a {
-    margin-right: 0;
-  }
-  header .main-product {
-    width: 40vw;
-  }
-  .about-area .img-holder > *:first-child {
-    width: 35vw;
-  }
-  .about-area .img-holder > *:nth-child(2) {
-    width: 50vw;
-  }
-  .how-works .info-holder {
-    width: 120%;
-  }
-  .features-area .product-holder img {
-    width: 650px;
-  }
-  .features-area #point {
-    width: 110%;
-  }
-  .features-area #point p {
-    margin-bottom: 20px;
-  }
-  .features-area .point1,
-  .features-area .point4 {
-    margin-top: 150px !important;
-  }
-  .features-area .point1,
-  .features-area .point3 {
-    -webkit-transform: translateX(0px) !important;
-            transform: translateX(0px) !important;
-  }
-  .features-area .point4,
-  .features-area .point6 {
-    -webkit-transform: translateX(0px) !important;
-            transform: translateX(0px) !important;
-  }
-  .features-area .point5 {
-    -webkit-transform: translateX(54px);
-            transform: translateX(54px);
-  }
-  .features-area .point2 {
-    -webkit-transform: translateX(-54px);
-            transform: translateX(-54px);
-  }
-  .banner-area {
-    margin-left: 100px !important;
-    margin-right: 100px !important;
-  }
-  .banner-area .banner-info {
-    margin-top: 2.5% !important;
-  }
-  .banner-area .banner-info h2 {
-    font-size: 4vmin;
-    margin-left: -20px;
-  }
-  .banner-area .banner-info .btn, .banner-area .banner-info .btn-light, .banner-area .banner-info .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .banner-area .banner-info .text-input {
-    margin-right: -20px;
-  }
-}
-
-@media only screen and (max-width: 1350px) {
-  #point p {
-    margin-bottom: 0 !important;
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  .about-area .img-holder > *:first-child {
-    width: 50vw;
-    left: 20%;
-  }
-  .about-area .img-holder > *:nth-child(2) {
-    width: 80vw;
-    left: 25%;
-  }
-  .how-works {
-    height: 1600px;
-  }
-  .how-works .content-holder {
-    margin-top: 100px;
-  }
-  .how-works .info-holder {
-    padding: 0;
-    margin-top: -200px;
-    margin-left: -100px;
-    text-align: center;
-  }
-  .how-works .card-holder {
-    -webkit-transform: translateY(-300px);
-            transform: translateY(-300px);
-    width: 110%;
-    margin-left: 25%;
-  }
-  .features-area #point {
-    text-align: center;
-  }
-  .features-area #point p {
-    margin-bottom: 43px;
-  }
-  .features-area .point5 {
-    -webkit-transform: translateX(0px) !important;
-            transform: translateX(0px) !important;
-  }
-  .features-area .point2 {
-    -webkit-transform: translateX(0px) !important;
-            transform: translateX(0px) !important;
-  }
-  .features-area .point4 {
-    margin-top: 0 !important;
-  }
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -261,11 +62,18 @@ nav .btn-light, .banner-area .btn-light, .newsletter-area .input-holder .text-in
   margin: 0;
 }
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  overflow-x: hidden;
   font-weight: normal;
   font-style: normal;
+  width: 100vw;
 }
 
 .img {
@@ -550,7 +358,6 @@ label {
 header {
   height: 950px;
   background-color: #F5F5F5;
-  width: 100vw;
 }
 
 header .bg-holder {
@@ -562,6 +369,22 @@ header .bg-holder img:last-of-type {
   right: 0;
   top: 0;
   left: auto;
+}
+
+header .logo-holder {
+  cursor: pointer;
+}
+
+header span {
+  z-index: 99;
+  padding-right: 135px;
+  margin-top: 47px;
+}
+
+header span > * {
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
 }
 
 .navbar,
@@ -621,11 +444,6 @@ nav li:nth-child(5) a {
   color: #7A7D98;
   margin-top: 30px;
   line-height: 35px;
-}
-
-.banner-info img {
-  max-width: 622px;
-  max-height: 635px;
 }
 
 .about-area {
@@ -736,7 +554,7 @@ nav li:nth-child(5) a {
 }
 
 .features-area .title {
-  width: 450px;
+  max-width: 450px;
   margin-top: 198px;
 }
 
@@ -780,18 +598,24 @@ nav li:nth-child(5) a {
   height: 280px;
 }
 
-.banner-area > img {
-  width: 100%;
+.banner-area > *:first-child {
+  left: 0;
+  top: 0;
+}
+
+.banner-area > *:nth-child(2) {
+  right: 0;
+  bottom: 0;
 }
 
 .banner-area .banner-info {
-  margin: 10px 0 0 0;
-  padding: 78px 45px;
+  margin: 0;
+  padding: 0px 45px;
 }
 
 .banner-area h2 {
   color: #fff;
-  margin: 0;
+  margin-top: -2%;
 }
 
 .banner-area .btn-light {
@@ -805,9 +629,12 @@ nav li:nth-child(5) a {
 
 .gallery-area .content-holder {
   padding-top: 130px;
+  padding-bottom: 130px;
   background-color: #F5F5F5;
   border-radius: 70px;
-  height: 1266px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .gallery-area .content-holder .gallery-bg {
@@ -825,7 +652,32 @@ nav li:nth-child(5) a {
 .gallery-area .content-holder .gallery .img-holder-1,
 .gallery-area .content-holder .gallery .img-holder-2,
 .gallery-area .content-holder .gallery .img-holder-3 {
-  height: 740px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gallery-area .content-holder .gallery .img-holder-1 img:first-of-type,
+.gallery-area .content-holder .gallery .img-holder-2 img:first-of-type,
+.gallery-area .content-holder .gallery .img-holder-3 img:first-of-type {
+  margin-bottom: 2vw;
+}
+
+.gallery-area .content-holder .gallery .img-holder-2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery-area .content-holder .gallery .img-holder-2 img:first-of-type {
+  margin-bottom: 0;
 }
 
 .faq-area {
@@ -838,7 +690,7 @@ nav li:nth-child(5) a {
 }
 
 .faq-area .img-holder img {
-  width: 818.9px;
+  max-width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -926,16 +778,19 @@ nav li:nth-child(5) a {
 
 .newsletter-area {
   background-color: #F5F5F5;
-  width: 100vw;
   height: 806px;
+  width: 100vw;
   margin-top: 130px;
 }
 
-.newsletter-area .bg-holder > *:last-child {
-  top: 529px;
-  width: 1003px;
-  z-index: 99;
-  left: 458px;
+.newsletter-area .bg-holder > *:first-child {
+  bottom: 0;
+  left: 0;
+}
+
+.newsletter-area .bg-holder > *:nth-child(2) {
+  right: 0;
+  top: 0;
 }
 
 .newsletter-area .info-holder {
@@ -958,7 +813,7 @@ nav li:nth-child(5) a {
 }
 
 .newsletter-area .info-holder p {
-  width: 450px;
+  width: 80%;
   color: #7A7D98;
   margin-bottom: 0px;
   margin-top: 0;
@@ -997,10 +852,19 @@ nav li:nth-child(5) a {
   top: 0;
 }
 
+.newsletter-area .video-holder {
+  margin-top: 130px;
+}
+
 .contact-area {
-  width: 100vw;
   height: 707px;
   margin-top: 539px;
+}
+
+.contact-area > *:first-child {
+  bottom: 0;
+  left: 0;
+  width: 100vw;
 }
 
 .contact-area h3 {
@@ -1111,7 +975,6 @@ nav li:nth-child(5) a {
 
 footer {
   background-color: #FF7000;
-  width: 100vw;
   height: 531px;
   padding: 130px 133.3px 0 133.3px;
 }
@@ -1213,5 +1076,547 @@ footer hr {
 footer .copyright {
   color: #fff;
   margin: 0;
+}
+
+@media only screen and (max-width: 1800px) {
+  .how-works .card, .how-works .contact-area .form-card, .contact-area .how-works .form-card {
+    width: 98%;
+  }
+  .features-area .product-holder img {
+    width: 750px;
+  }
+  .features-area #point p {
+    margin-bottom: 43px;
+  }
+  .features-area .point1,
+  .features-area .point3 {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .features-area .point4,
+  .features-area .point6 {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .features-area .point5 {
+    -webkit-transform: translateX(54px);
+            transform: translateX(54px);
+  }
+  .features-area .point2 {
+    -webkit-transform: translateX(-54px);
+            transform: translateX(-54px);
+  }
+  .gallery-area .content-holder .gallery {
+    margin: 0 5%;
+  }
+  .faq-area .info-holder1 {
+    padding-right: 20px;
+  }
+  .faq-area .img-holder img {
+    top: 5%;
+  }
+  .banner-area .banner-info {
+    margin-top: 2%;
+  }
+  .banner-area .banner-info h2 {
+    font-size: 3.5vmin;
+    margin-left: -20px;
+  }
+  .banner-area .banner-info .btn, .banner-area .banner-info .btn-light, .banner-area .banner-info .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .banner-area .banner-info .text-input {
+    margin-right: -20px;
+  }
+  .newsletter-area .input-holder {
+    width: 80%;
+  }
+  .contact-area .info-holder {
+    padding-left: 133px;
+  }
+  .contact-area .form-holder {
+    margin-right: 133px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .about-area {
+    margin-top: 200px;
+  }
+  .about-area .info-holder1 {
+    padding-right: 0;
+  }
+  .about-area .img-holder {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  .about-area .img-holder > *:nth-child(2) {
+    width: 50vw;
+  }
+  .about-area .info-holder1 {
+    padding-right: 100px;
+  }
+  .how-works {
+    margin-top: 200px;
+  }
+  .how-works .col1 .card, .how-works .col1 .contact-area .form-card, .contact-area .how-works .col1 .form-card {
+    width: 150%;
+    -webkit-transform: translate(15%, 10%);
+            transform: translate(15%, 10%);
+  }
+  .how-works .col2 {
+    display: none;
+  }
+  .banner-area .banner-info {
+    margin-top: 4%;
+  }
+  .banner-area .banner-info h2 {
+    font-size: 2.8vmin;
+    margin-left: -20px;
+  }
+  .banner-area .banner-info .btn, .banner-area .banner-info .btn-light, .banner-area .banner-info .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .banner-area .banner-info .text-input {
+    margin-right: -20px;
+  }
+  .newsletter-area {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  header nav .shop-now {
+    display: none;
+  }
+  header nav li:nth-child(4) a {
+    margin-right: 0;
+  }
+  header .main-product {
+    width: 40vw;
+  }
+  .about-area .img-holder > *:first-child {
+    width: 35vw;
+  }
+  .about-area .img-holder > *:nth-child(2) {
+    width: 50vw;
+  }
+  .how-works .info-holder {
+    width: 120%;
+    padding-left: 10%;
+  }
+  .how-works .card-holder {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  .how-works .card-holder .card, .how-works .card-holder .contact-area .form-card, .contact-area .how-works .card-holder .form-card {
+    height: 450px;
+  }
+  .features-area .product-holder img {
+    width: 650px;
+  }
+  .features-area #point {
+    width: 110%;
+  }
+  .features-area #point p {
+    margin-bottom: 20px;
+  }
+  .features-area .point1,
+  .features-area .point4 {
+    margin-top: 150px;
+  }
+  .features-area .point1,
+  .features-area .point3 {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .features-area .point4,
+  .features-area .point6 {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .features-area .point5 {
+    -webkit-transform: translateX(54px);
+            transform: translateX(54px);
+  }
+  .features-area .point2 {
+    -webkit-transform: translateX(-54px);
+            transform: translateX(-54px);
+  }
+  .banner-area {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .banner-area .banner-info {
+    margin-top: 2.5%;
+  }
+  .banner-area .banner-info h2 {
+    font-size: 4vmin;
+    margin-left: -20px;
+  }
+  .banner-area .banner-info .btn, .banner-area .banner-info .btn-light, .banner-area .banner-info .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .banner-area .banner-info .text-input {
+    margin-right: -20px;
+  }
+  .faq-area {
+    margin-left: 133px;
+  }
+  .faq-area .img-holder img {
+    top: 5%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  #point p {
+    margin-bottom: 0;
+  }
+  .contact-area .form-holder .input-holder2 input {
+    height: 8vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  header nav {
+    padding-left: 0px;
+  }
+  header nav a {
+    margin-right: 20px;
+  }
+  .about-area {
+    margin-top: 0px;
+  }
+  .about-area .info-holder1 {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .about-area .info-holder2 {
+    margin-top: 100px;
+  }
+  .gallery-area .content-holder .gallery .img-holder-2 {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .faq-area .info-holder1 {
+    text-align: center;
+  }
+  .faq-area .img-holder {
+    text-align: center;
+  }
+  .faq-area .img-holder img {
+    left: 4%;
+    top: 50px;
+  }
+  .newsletter-area {
+    height: 806px;
+    margin-top: 50px;
+  }
+  .newsletter-area .video-holder img {
+    width: 90vw;
+  }
+  .newsletter-area .input-holder {
+    width: 70vw;
+  }
+  .newsletter-area .input-holder .text-input {
+    width: 70vw;
+  }
+  .contact-area {
+    height: auto;
+  }
+  .contact-area .form-holder {
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 133px;
+  }
+  .contact-area .info-holder {
+    margin: 0;
+    padding: 0;
+    padding-left: 133px;
+    text-align: center;
+  }
+  footer .parent-holder > * {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .info-holder {
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  footer .input-holder input {
+    width: 15vw;
+  }
+  footer .brand-holder i {
+    font-size: 25px;
+    margin-right: 5px;
+  }
+  .copyright {
+    margin-top: 6%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .about-area .img-holder > *:first-child {
+    width: 50vw;
+    left: 20%;
+  }
+  .about-area .img-holder > *:nth-child(2) {
+    width: 80vw;
+    margin-left: 20%;
+  }
+  .about-area .info-holder1 {
+    padding: 0;
+  }
+  .about-area .info-holder2 {
+    padding: 0;
+  }
+  .how-works {
+    height: 1600px;
+  }
+  .how-works .content-holder {
+    margin-top: 0px;
+  }
+  .how-works .info-holder {
+    width: 60vw;
+    padding: 0;
+    margin-top: 100px;
+    margin-left: 8%;
+    text-align: center;
+  }
+  .how-works .card-holder {
+    -webkit-transform: translateX(8%);
+            transform: translateX(8%);
+  }
+  .features-area {
+    margin-top: -200px;
+  }
+  .features-area #point {
+    text-align: center;
+  }
+  .features-area #point p {
+    margin-bottom: 43px;
+  }
+  .features-area .point5 {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .features-area .point2 {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .features-area .point4 {
+    margin-top: 0;
+  }
+  .newsletter-area {
+    margin-top: 800px;
+  }
+  .contact-area {
+    margin-top: 600px;
+  }
+  .contact-area .form-holder {
+    margin-top: 100px;
+    margin-left: 133px;
+  }
+  .contact-area .info-holder {
+    padding-right: 133px;
+  }
+  footer {
+    height: auto;
+    padding-bottom: 25px;
+  }
+  footer .input-holder input {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .how-works .info-holder {
+    width: 40vw;
+    margin-left: 20%;
+  }
+  .how-works .card-holder {
+    -webkit-transform: translateX(12%);
+            transform: translateX(12%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .banner-info {
+    margin: 139px 118px;
+  }
+  header .banner-info > *:first-child {
+    padding-right: 0;
+  }
+  header .banner-info > *:last-child {
+    padding-left: 0;
+  }
+  header span {
+    padding-right: 5vw;
+  }
+  .navbar,
+  nav {
+    padding-left: 5vw;
+    margin-top: 47px;
+  }
+  .banner-info {
+    margin: 139px 5vw;
+  }
+  .about-area {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .about-area .img-holder > *:first-child {
+    left: 25%;
+  }
+  .how-works {
+    margin: 0px 5vw 0 5vw;
+  }
+  .how-works .info-holder {
+    margin-left: 25%;
+  }
+  .how-works .card-holder {
+    -webkit-transform: translateX(12%);
+            transform: translateX(12%);
+  }
+  .how-works .card-holder .card, .how-works .card-holder .contact-area .form-card, .contact-area .how-works .card-holder .form-card {
+    text-align: center;
+  }
+  .features-area {
+    padding: 0 10vw 0 5vw;
+  }
+  .features-area .point1 {
+    margin-top: 40px;
+  }
+  .banner-area {
+    position: relative;
+  }
+  .banner-area .banner-info .btn-light {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+  }
+  .gallery-area {
+    margin: 130px 5vw 0 5vw;
+  }
+  .faq-area {
+    margin: 130.4px 5vw 0 5vw;
+  }
+  .newsletter-area {
+    margin-top: 600px;
+  }
+  .contact-area {
+    margin-top: 400px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  header h1 {
+    font-size: 4em;
+  }
+  .features-area {
+    margin-top: 50px;
+  }
+  .banner-area .btn-light {
+    margin-left: -5%;
+  }
+  .contact-area .form-holder {
+    margin-left: 5%;
+    margin-right: 2%;
+  }
+  footer {
+    height: 100%;
+  }
+  .newsletter-area .info-holder > p {
+    width: 70vw;
+  }
+  .newsletter-area .placeholder {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .logo-holder > h3 {
+    font-size: 2rem;
+  }
+  .banner-area {
+    margin: 50px 10vw 0 10vw;
+  }
+  .banner-area .btn-light {
+    padding: 10px 15px;
+    font-size: 8vmin;
+  }
+  .faq-area #accordion a {
+    font-size: 4.2vmin;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .newsletter-area .btn, .newsletter-area .navbar .btn-light, .navbar .newsletter-area .btn-light,
+  .newsletter-area nav .btn-light, nav .newsletter-area .btn-light, .newsletter-area .banner-area .btn-light, .banner-area .newsletter-area .btn-light, .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .btn {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contact-area h3 {
+    font-size: 6vmin;
+  }
+  .contact-area h2 {
+    font-size: 10vmin;
+  }
+  .contact-area .info-holder h3,
+  .contact-area .info-holder h2,
+  .contact-area .info-holder p {
+    margin: 0 -100px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  header span {
+    -webkit-transform: translate(-50%, 10%);
+            transform: translate(-50%, 10%);
+  }
+  header .logo-holder > h3 {
+    font-size: 2rem;
+  }
+  .banner-info h1 {
+    font-size: 3rem;
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  .banner-info p {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  .how-works .btn, .how-works .navbar .btn-light, .navbar .how-works .btn-light,
+  .how-works nav .btn-light, nav .how-works .btn-light, .how-works .banner-area .btn-light, .banner-area .how-works .btn-light, .how-works .newsletter-area .input-holder .text-input, .newsletter-area .input-holder .how-works .text-input, .how-works .newsletter-area .input-holder .btn, .newsletter-area .input-holder .how-works .btn {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  .how-works .card, .how-works .contact-area .form-card, .contact-area .how-works .form-card {
+    width: 200% !important;
+    left: -20%;
+  }
+  .how-works .card h3, .how-works .contact-area .form-card h3, .contact-area .how-works .form-card h3 {
+    font-size: 5vmin;
+  }
+  .features-area {
+    margin-top: 200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

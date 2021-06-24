@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="685" height="299" viewBox="0 0 685 299">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_461" data-name="Rectangle 461" width="685" height="299" transform="translate(1235 6978)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.887" x2="0.5" y2="0.053" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8a00"/>
+      <stop offset="1" stop-color="#ffbc00"/>
+    </linearGradient>
+  </defs>
+  <g id="newsletter-bg2" transform="translate(-1235 -6978)" clip-path="url(#clip-path)">
+    <circle id="Ellipse_621" data-name="Ellipse 621" cx="272.864" cy="272.864" r="272.864" transform="translate(1310 6696.772)" opacity="0.1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

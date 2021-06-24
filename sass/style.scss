@@ -22,7 +22,6 @@
 
 @import "partials/variables";
 @import "partials/classes";
-@import "partials/responsive";
 
 * {
   box-sizing: border-box;
@@ -30,15 +29,18 @@
   padding: 0px;
   margin: 0;
 }
+html{
+	width: 100vw;
+	overflow-x: hidden;
+}
 
 body {
-  // @include theme(background, $color-light-bg, $color-dark-bg);
-  // @include theme(color, $color-dark, $color-light);
   font-family: $font-para-family;
   font-size: $font-para-size;
-//   overflow-x: hidden;
+  overflow-x: hidden;
   font-weight: normal;
   font-style: normal;
+  width: 100vw;
 }
 
 .img {
@@ -277,7 +279,7 @@ label {
 header {
 	height: 950px;
 	background-color: $color-secondary;
-	width: 100vw;
+	// width: 100vw;
 
   .bg-holder {
     margin-left: -15px;
@@ -289,12 +291,25 @@ header {
       left: auto;
     }
   }
+  .logo-holder {
+	  cursor: pointer;
+  }
+  span {
+	  z-index: 99;
+	  padding-right: 135px;
+	  margin-top: 47px;
+	  & > * {
+	  font-size: 40px;
+	  color: white;
+	cursor: pointer;
+	}
+  }
   
 }
 
 .navbar,
 nav {
-	z-index: 1;
+  z-index: 1;
   padding: 0px 135px 0px 150px;
   margin-top: 47px;
   h3 {
@@ -341,10 +356,6 @@ nav {
 		line-height: 35px;
 	}
 
-	img {
-		max-width: 622px;
-		max-height: 635px;
-	} 
 }
 
 // About Area 
@@ -434,7 +445,7 @@ nav {
 		transform: translateY(-205px);
 	}
 	.title {
-		width: 450px;
+		max-width: 450px;
 		margin-top: 198px;
 		p {
 			margin-bottom: 0px;
@@ -474,16 +485,21 @@ nav {
 	border-radius: 20px;
 	height: 280px;
 
-	& > img {
-		width: 100%;
+	& > *:first-child {
+		left: 0;
+		top: 0;
+	}
+	& > *:nth-child(2) {
+		right: 0;
+		bottom: 0;
 	}
 	.banner-info {
-		margin: 10px 0 0 0;
-		padding: 78px 45px;
+		margin: 0;
+		padding: 0px 45px;
 	}
 	h2 {
 		color: #fff;
-		margin: 0;
+		margin-top: -2%;
 	}
 	.btn-light {
 		@extend .btn;
@@ -497,9 +513,10 @@ nav {
 	margin: 130px 146px 0 154px;
 	.content-holder { 
 		padding-top: 130px;
+		padding-bottom: 130px;
 		background-color: $color-secondary; 
 		border-radius: 70px;
-		height: 1266px;
+		height: fit-content;
 		.gallery-bg {
 			top: 0;
 		}
@@ -511,8 +528,22 @@ nav {
 			.img-holder-1,
 			.img-holder-2,
 			.img-holder-3 {
-				height: 740px;
+				// background-color:red;
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+				// height: auto;
+				img:first-of-type {
+					margin-bottom: 2vw;
+				}
 			}
+			.img-holder-2 {
+				justify-content: center;
+				img:first-of-type {
+					margin-bottom: 0;
+				}
+			}
+
 		}
 	}
 }
@@ -526,7 +557,7 @@ nav {
 	}
 	.img-holder {
 		img {
-			width: 818.9px;
+			max-width: 100%;
 			margin: 0;
 			padding: 0;
 		}
@@ -610,17 +641,24 @@ nav {
 // Newsletter Area 
 .newsletter-area {
 	background-color: $color-secondary;
-	width: 100vw;
 	height: 806px;
+	width: 100vw;
 	margin-top: 130px;
-
 	.bg-holder {
-		& > *:last-child {
-			top: 529px;
-			width: 1003px;
-			z-index: 99;
-			left: 458px;
+		& > *:first-child {
+			bottom: 0;
+			left: 0;
 		}
+		& > *:nth-child(2) {
+			right: 0;
+			top: 0;
+		}
+		// & > *:last-child {
+		// 	top: 529px;
+		// 	width: 1003px;
+		// 	z-index: 99;
+		// 	left: 458px;
+		// }
 	}
 
 	.info-holder {
@@ -633,7 +671,7 @@ nav {
 			margin-bottom: 30px;
 		}
 		p {
-			width: 450px;
+			width: 80%;
 			color: $color-gray;
 			margin-bottom: 0px;
 			margin-top: 0;
@@ -670,11 +708,18 @@ nav {
 			top: 0;
 		}
 	}
+	.video-holder {
+		margin-top: 130px;
+	}
 }
 
 // Contact Area
 .contact-area {
-	width: 100vw;
+	& > *:first-child {
+		bottom: 0;
+		left: 0;
+		width: 100vw;
+	}
 	height: 707px;
 	margin-top: 539px;
 	h3 {
@@ -757,7 +802,6 @@ nav {
 // Footer Area
 footer {
 	background-color: $color-primary;
-	width: 100vw;
 	height: 531px;
 	padding: 130px 133.3px 0 133.3px;
 	li {
@@ -849,3 +893,5 @@ footer {
 		margin: 0;
 	}
 }
+
+@import "partials/responsive";
