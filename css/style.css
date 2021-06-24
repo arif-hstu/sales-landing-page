@@ -109,7 +109,7 @@ a:focus,
 a:focus,
 a:hover,
 .footer -menu li a:hover {
-  color: #F9CA86;
+  color: #f9ca86;
   text-decoration: none;
 }
 
@@ -119,7 +119,11 @@ button {
   outline: medium none;
 }
 
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0;
 }
 
@@ -326,13 +330,13 @@ label {
 }
 
 .owl-carousel .owl-nav div:hover {
-  background: #2B96CC;
+  background: #2b96cc;
   color: #fff;
 }
 
 /* scrollUp */
 #scrollUp {
-  background: #FF8D33;
+  background: #ff8d33;
   background-image: url(../img/icons/up-arrow.svg);
   background-size: 15px 15px;
   background-position: center;
@@ -441,7 +445,7 @@ nav li:nth-child(5) a {
 .banner-info p {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
-  color: #7A7D98;
+  color: #7a7d98;
   margin-top: 30px;
   line-height: 35px;
 }
@@ -497,7 +501,7 @@ nav li:nth-child(5) a {
   display: block;
   width: 3px;
   background: #FF7000;
-  content: '';
+  content: "";
 }
 
 .how-works {
@@ -730,7 +734,7 @@ nav li:nth-child(5) a {
   display: block;
   width: 3px;
   background: #FF7000;
-  content: '';
+  content: "";
 }
 
 .faq-area .accordion-holder .accordion .collapse {
@@ -745,7 +749,7 @@ nav li:nth-child(5) a {
 }
 
 .faq-area .accordion-holder .accordion .card-header:after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   content: "\f0d7";
   font-weight: 900;
   float: right;
@@ -832,7 +836,7 @@ nav li:nth-child(5) a {
   border-radius: 40px;
   width: 700px;
   background-color: #fff;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
   text-align: left;
   cursor: text;
   position: absolute;
@@ -1050,7 +1054,7 @@ footer .input-holder img {
   z-index: 99;
   right: 0;
   padding: 10px 31px;
-  background-color: #F9DEC9;
+  background-color: #f9dec9;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   cursor: pointer;

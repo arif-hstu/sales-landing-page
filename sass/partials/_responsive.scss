@@ -1,641 +1,634 @@
 @media only screen and (max-width: 1800px) {
     .how-works {
-        .card {
-            width: 98%;
-        }
+      .card {
+        width: 98%;
+      }
     }
-
+  
     .features-area {
-        .product-holder {
-            img {
-                width: 750px;
-            }
+      .product-holder {
+        img {
+          width: 750px;
         }
-        #point {
-            p {
-                margin-bottom: 43px;
-            }
-        }
-        .point1, 
-        .point3 {
-            transform: translateX(0px);
-        }
-        .point4, 
-        .point6 {
-            transform: translateX(0px);
-        }
-        .point5 {
-            transform: translateX(54px);
-        }
-        .point2 {
-            transform: translateX(-54px);
-        }
-    }
-
-    .gallery-area {
-        .content-holder {
-            .gallery {
-                margin:0 5%;
-            }
-
-        }
-    }
-
-    .faq-area {
-        .info-holder1 {
-            padding-right: 20px;
-        }
-        .img-holder {
-            img {
-                top: 5% ;
-            }
-        }
-    }
-
-    .banner-area {
-        .banner-info {
-            margin-top: 2%;
-            h2 {
-                font-size: 3.5vmin;
-                margin-left: -20px;
-            }
-            .btn {
-                margin-right: -20px;
-            }
-        }
-    }
-    .contact-area {
-        .info-holder {
-            padding-left: 133px;
-        }
-        .form-holder {
-            margin-right: 133px;
-        }
-    }
-}
-
-@media only screen and (max-width: 1600px) {
-    .about-area {
-        margin-top: 200px;
-        .info-holder1 {
-            padding-right: 0;
-        }
-        .img-holder {
-            transform: translateY(10%);
-            & > *:nth-child(2) {
-                width: 50vw;
-            }
-        }
-        .info-holder1 {
-            padding-right: 100px;
-        }
-    }
-    
-    .how-works {
-        margin-top: 200px;
-        .col1 {
-            .card {
-                width: 150%;
-                transform: translate(15%, 10%);
-            }
-        }
-        .col2 {
-            display: none;
-        }
-    }
-
-    .banner-area {
-        .banner-info {
-            margin-top: 4%;
-            h2 {
-                font-size: 2.8vmin;
-                margin-left: -20px;
-            }
-            .btn {
-                margin-right: -20px;
-            }
-        }
-    }
-    .newsletter-area {
-        margin-top: -10px;
-    }
-}
-
-@media only screen and (max-width: 1500px) {
-    header {
-        nav {
-            .shop-now {
-                display: none;
-            }
-            li:nth-child(4) a {
-                margin-right: 0;
-            }
-        }
-        .main-product {
-            width: 40vw;
-        }
-    }
-
-    .about-area {
-        .img-holder {
-            & > *:first-child {
-                width: 35vw;
-            }
-            & > *:nth-child(2) {
-                width: 50vw;
-            }
-        }
-    }
-
-    .how-works {
-        .info-holder {
-            width: 120%;
-            padding-left: 10%;
-        }
-        .card-holder {
-            transform: translateX(20%);
-            .card {
-                height: 450px;
-            }
-        }
-    }
-    .features-area {
-        .product-holder {
-            img {
-                width: 650px;
-            }
-        }
-        #point {
-            width: 110%;
-            p {
-                margin-bottom: 20px;
-            }
-        }
-        .point1,
-        .point4 {
-            margin-top: 150px;
-        }
-        .point1, 
-        .point3 {
-            transform: translateX(0px);
-        }
-        .point4, 
-        .point6 {
-            transform: translateX(0px);
-        }
-        .point5 {
-            transform: translateX(54px);
-        }
-        .point2 {
-            transform: translateX(-54px);
-        }
-    }
-
-    .banner-area {
-        margin-left: 100px;
-        margin-right: 100px;
-        .banner-info {
-            margin-top: 2.5%;
-            h2 {
-                font-size: 4vmin;
-                margin-left: -20px;
-            }
-            .btn {
-                margin-right: -20px;
-            }
-        }
-    }
-
-    .faq-area {
-        margin-left: 133px;
-        .img-holder {
-            img {
-                top: 5% ;
-            }
-        }
-    }
-
-}
-
-@media only screen and (max-width: 1350px) {
-    #point {
+      }
+      #point {
         p {
-            margin-bottom: 0;
+          margin-bottom: 43px;
         }
+      }
+      .point1,
+      .point3 {
+        transform: translateX(0px);
+      }
+      .point4,
+      .point6 {
+        transform: translateX(0px);
+      }
+      .point5 {
+        transform: translateX(54px);
+      }
+      .point2 {
+        transform: translateX(-54px);
+      }
+    }
+  
+    .gallery-area {
+      .content-holder {
+        .gallery {
+          margin: 0 5%;
+        }
+      }
+    }
+  
+    .faq-area {
+      .info-holder1 {
+        padding-right: 20px;
+      }
+      .img-holder {
+        img {
+          top: 5%;
+        }
+      }
+    }
+  
+    .banner-area {
+      .banner-info {
+        margin-top: 2%;
+        h2 {
+          font-size: 3.5vmin;
+          margin-left: -20px;
+        }
+        .btn {
+          margin-right: -20px;
+        }
+      }
     }
     .contact-area {
-        .form-holder {
-            .input-holder2 {
-                input {
-                    height: 8vw;
-                }
-            }
-        }
+      .info-holder {
+        padding-left: 133px;
+      }
+      .form-holder {
+        margin-right: 133px;
+      }
     }
-}
-
-@media only screen and (max-width: 1200px) {
-    header {
-        nav {
-            padding-left: 0px;
-            a {
-                margin-right: 20px;
-            }
-        }
-    }
+  }
+  
+  @media only screen and (max-width: 1600px) {
     .about-area {
-        margin-top: 0px;
-        .info-holder1 {
-            margin-top: 100px;
-            text-align: center;
+      margin-top: 200px;
+      .info-holder1 {
+        padding-right: 0;
+      }
+      .img-holder {
+        transform: translateY(10%);
+        & > *:nth-child(2) {
+          width: 50vw;
         }
-        .info-holder2 {
-            margin-top: 100px;
-        }
+      }
+      .info-holder1 {
+        padding-right: 100px;
+      }
     }
-    .gallery-area {
-        .content-holder {
-            // height: fit-content !important;
-            .gallery {
-                .img-holder-2 {
-                    margin-top: 20px;
-                    width: 100%;
-                }
-            }
+  
+    .how-works {
+      margin-top: 200px;
+      .col1 {
+        .card {
+          width: 150%;
+          transform: translate(15%, 10%);
         }
+      }
+      .col2 {
+        display: none;
+      }
     }
-    .faq-area {
-        .info-holder1 {
-            text-align: center;
+  
+    .banner-area {
+      .banner-info {
+        margin-top: 4%;
+        h2 {
+          font-size: 2.8vmin;
+          margin-left: -20px;
         }
-        .img-holder {
-            text-align: center;
-            img {
-                left: 4%;
-                top: 50px;
-            }
+        .btn {
+          margin-right: -20px;
         }
+      }
     }
     .newsletter-area {
-        height: 806px;
-        margin-top: 50px;
-        .video-holder {
-            img {
-                width: 90vw;
-            }
+      margin-top: -10px;
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) {
+    header {
+      nav {
+        .shop-now {
+          display: none;
         }
-        .input-holder {
-            width: 70vw;
-            .text-input {
-                width: 70vw;
-            }
+        li:nth-child(4) a {
+          margin-right: 0;
         }
+      }
+      .main-product {
+        width: 40vw;
+      }
+    }
+  
+    .about-area {
+      .img-holder {
+        & > *:first-child {
+          width: 35vw;
+        }
+        & > *:nth-child(2) {
+          width: 50vw;
+        }
+      }
+    }
+  
+    .how-works {
+      .info-holder {
+        width: 120%;
+        padding-left: 10%;
+      }
+      .card-holder {
+        transform: translateX(20%);
+        .card {
+          height: 450px;
+        }
+      }
+    }
+    .features-area {
+      .product-holder {
+        img {
+          width: 650px;
+        }
+      }
+      #point {
+        width: 110%;
+        p {
+          margin-bottom: 20px;
+        }
+      }
+      .point1,
+      .point4 {
+        margin-top: 150px;
+      }
+      .point1,
+      .point3 {
+        transform: translateX(0px);
+      }
+      .point4,
+      .point6 {
+        transform: translateX(0px);
+      }
+      .point5 {
+        transform: translateX(54px);
+      }
+      .point2 {
+        transform: translateX(-54px);
+      }
+    }
+  
+    .banner-area {
+      margin-left: 100px;
+      margin-right: 100px;
+      .banner-info {
+        margin-top: 2.5%;
+        h2 {
+          font-size: 4vmin;
+          margin-left: -20px;
+        }
+        .btn {
+          margin-right: -20px;
+        }
+      }
+    }
+  
+    .faq-area {
+      margin-left: 133px;
+      .img-holder {
+        img {
+          top: 5%;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1350px) {
+    #point {
+      p {
+        margin-bottom: 0;
+      }
     }
     .contact-area {
-        height: auto;
-        .form-holder {
-            margin: 0;
-            margin-top: 50px;
-            margin-right: 133px;
+      .form-holder {
+        .input-holder2 {
+          input {
+            height: 8vw;
+          }
         }
-        .info-holder {
-            margin: 0;
-            padding: 0;
-            padding-left: 133px;
-            text-align: center;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    header {
+      nav {
+        padding-left: 0px;
+        a {
+          margin-right: 20px;
         }
-        
+      }
+    }
+    .about-area {
+      margin-top: 0px;
+      .info-holder1 {
+        margin-top: 100px;
+        text-align: center;
+      }
+      .info-holder2 {
+        margin-top: 100px;
+      }
+    }
+    .gallery-area {
+      .content-holder {
+        // height: fit-content !important;
+        .gallery {
+          .img-holder-2 {
+            margin-top: 20px;
+            width: 100%;
+          }
+        }
+      }
+    }
+    .faq-area {
+      .info-holder1 {
+        text-align: center;
+      }
+      .img-holder {
+        text-align: center;
+        img {
+          left: 4%;
+          top: 50px;
+        }
+      }
+    }
+    .newsletter-area {
+      height: 806px;
+      margin-top: 50px;
+      .video-holder {
+        img {
+          width: 90vw;
+        }
+      }
+      .input-holder {
+        width: 70vw;
+        .text-input {
+          width: 70vw;
+        }
+      }
+    }
+    .contact-area {
+      height: auto;
+      .form-holder {
+        margin: 0;
+        margin-top: 50px;
+        margin-right: 133px;
+      }
+      .info-holder {
+        margin: 0;
+        padding: 0;
+        padding-left: 133px;
+        text-align: center;
+      }
     }
     footer {
-        .parent-holder {
-            & > * {
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
+      .parent-holder {
+        & > * {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
-        .info-holder {
-            width: 100%;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: 0;
+      }
+      .info-holder {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      .input-holder {
+        input {
+          width: 15vw;
         }
-        .input-holder {
-            input {
-                width: 15vw;
-            }
+      }
+      .brand-holder {
+        i {
+          font-size: 25px;
+          margin-right: 5px;
         }
-        .brand-holder {
-            i {
-                font-size: 25px;
-                margin-right: 5px;
-            }
-        }
+      }
     }
     .copyright {
-        margin-top: 6%;
+      margin-top: 6%;
     }
-}
-@media only screen and (max-width: 1199px) {
+  }
+  @media only screen and (max-width: 1199px) {
     .about-area {
-        .img-holder {
-            & > *:first-child {
-                width: 50vw;
-                left: 20%;
-            }
-            & > *:nth-child(2) {
-                width: 80vw;
-                margin-left: 20%;
-            }
+      .img-holder {
+        & > *:first-child {
+          width: 50vw;
+          left: 20%;
         }
-        .info-holder1 {
-            padding: 0;
+        & > *:nth-child(2) {
+          width: 80vw;
+          margin-left: 20%;
         }
-        .info-holder2 {
-            padding: 0;
-        }
+      }
+      .info-holder1 {
+        padding: 0;
+      }
+      .info-holder2 {
+        padding: 0;
+      }
     }
-
+  
     .how-works {
-        height: 1600px;
-        .content-holder { 
+      height: 1600px;
+      .content-holder {
         margin-top: 0px;
         // height: 100%;
-        }
-        .info-holder {
-            width: 60vw;
-            padding: 0;
-            margin-top: 100px;
-            margin-left: 8%;
-            text-align: center;
-        }
-        .card-holder {
-            transform: translateX(8%);
-            // width: 115%;
-            // margin-left: 25%;
-        }
+      }
+      .info-holder {
+        width: 60vw;
+        padding: 0;
+        margin-top: 100px;
+        margin-left: 8%;
+        text-align: center;
+      }
+      .card-holder {
+        transform: translateX(8%);
+        // width: 115%;
+        // margin-left: 25%;
+      }
     }
-
+  
     .features-area {
-        margin-top: -200px;
-        #point {
-            text-align: center;
-            p {
-                margin-bottom: 43px;
-            }
+      margin-top: -200px;
+      #point {
+        text-align: center;
+        p {
+          margin-bottom: 43px;
         }
-        .point5 {
-            transform: translateX(0px);
-        }
-        .point2 {
-            transform: translateX(0px);
-        }
-        .point4 {
-            margin-top: 0;
-        }
+      }
+      .point5 {
+        transform: translateX(0px);
+      }
+      .point2 {
+        transform: translateX(0px);
+      }
+      .point4 {
+        margin-top: 0;
+      }
     }
     .newsletter-area {
-        margin-top: 800px;
+      margin-top: 800px;
     }
-
+  
     .contact-area {
-        margin-top: 600px;
-        .form-holder {
-            margin-top: 100px;
-            margin-left: 133px;
-        }
-        .info-holder {
-            padding-right: 133px;
-        }
+      margin-top: 600px;
+      .form-holder {
+        margin-top: 100px;
+        margin-left: 133px;
+      }
+      .info-holder {
+        padding-right: 133px;
+      }
     }
     footer {
-        height: auto;
-        padding-bottom: 25px;
-        .input-holder {
-            input {
-                width: 60vw;
-            }
+      height: auto;
+      padding-bottom: 25px;
+      .input-holder {
+        input {
+          width: 60vw;
         }
+      }
     }
-}
-
-@media only screen and (max-width: 992px) {
+  }
+  
+  @media only screen and (max-width: 992px) {
     // .contact-area {
     //     margin-top: 500px;
     // }
     .how-works {
-        .info-holder {
-            width: 40vw;
-            margin-left: 20%;
-        }
-        .card-holder {
-            transform: translateX(12%);
-        }
+      .info-holder {
+        width: 40vw;
+        margin-left: 20%;
+      }
+      .card-holder {
+        transform: translateX(12%);
+      }
     }
-   
-}
-@media only screen and (max-width: 768px) {
+  }
+  @media only screen and (max-width: 768px) {
     header {
-        .banner-info {
-            margin: 139px 118px;
-        
-            & > *:first-child {
-                padding-right: 0;
-            }
-        
-            & > *:last-child {
-                padding-left: 0;
-            }
+      .banner-info {
+        margin: 139px 118px;
+  
+        & > *:first-child {
+          padding-right: 0;
         }
-        span {
-            padding-right: 5vw;
+  
+        & > *:last-child {
+          padding-left: 0;
         }
+      }
+      span {
+        padding-right: 5vw;
+      }
     }
     .navbar,
     nav {
-        padding-left: 5vw;
-        margin-top: 47px;
+      padding-left: 5vw;
+      margin-top: 47px;
     }
     .banner-info {
-        margin: 139px 5vw;
+      margin: 139px 5vw;
     }
     .about-area {
-        margin-left: 5vw;
-        margin-right: 5vw;
-        .img-holder {
-            & > *:first-child {
-                left: 25%;
-            }
-
+      margin-left: 5vw;
+      margin-right: 5vw;
+      .img-holder {
+        & > *:first-child {
+          left: 25%;
         }
+      }
     }
     .how-works {
-        margin: 0px 5vw 0 5vw;
-        .info-holder {
-            margin-left: 25%;
+      margin: 0px 5vw 0 5vw;
+      .info-holder {
+        margin-left: 25%;
+      }
+      .card-holder {
+        transform: translateX(12%);
+        .card {
+          text-align: center;
         }
-        .card-holder {
-            transform: translateX(12%);
-            .card {
-                text-align: center;
-            }
-        }
+      }
     }
-
+  
     .features-area {
-        padding: 0 10vw 0 5vw;
-        .point1 {
-            margin-top: 40px;
-        }
+      padding: 0 10vw 0 5vw;
+      .point1 {
+        margin-top: 40px;
+      }
     }
-    
+  
     .banner-area {
-        position: relative;
-        .banner-info {
-            .btn-light {
-                position: absolute;
-                left: 25%;
-                top: 40%;
-            }
-            
+      position: relative;
+      .banner-info {
+        .btn-light {
+          position: absolute;
+          left: 25%;
+          top: 40%;
         }
+      }
     }
     .gallery-area {
-        margin: 130px 5vw 0 5vw;
+      margin: 130px 5vw 0 5vw;
     }
     .faq-area {
-        margin: 130.4px 5vw 0 5vw;
+      margin: 130.4px 5vw 0 5vw;
     }
     .newsletter-area {
-        margin-top: 600px;
+      margin-top: 600px;
     }
     .contact-area {
-        margin-top: 400px;
+      margin-top: 400px;
     }
-}
-
-@media only screen and (max-width: 630px) {
+  }
+  
+  @media only screen and (max-width: 630px) {
     header {
-        h1 {
-            font-size: 4em;
-        }
+      h1 {
+        font-size: 4em;
+      }
     }
     .features-area {
-        margin-top: 50px;
+      margin-top: 50px;
     }
     .banner-area {
-        .btn-light {
-            margin-left: -5%;
-        }
+      .btn-light {
+        margin-left: -5%;
+      }
     }
     .contact-area {
-        .form-holder {
-            margin-left: 5%;
-            margin-right: 2%;
-        }
+      .form-holder {
+        margin-left: 5%;
+        margin-right: 2%;
+      }
     }
     footer {
-        height: 100%
+      height: 100%;
     }
     .newsletter-area {
-        .info-holder {
-            & > p {
-                width: 70vw;
-                // margin-left: 20%;
-            }
+      .info-holder {
+        & > p {
+          width: 70vw;
+          // margin-left: 20%;
         }
-        .placeholder {
-            display: none;
-        }
+      }
+      .placeholder {
+        display: none;
+      }
     }
-}
-
-@media only screen and (max-width: 575px) {
+  }
+  
+  @media only screen and (max-width: 575px) {
     .logo-holder {
-        & > h3 {
-            font-size: 2rem;
-        }
+      & > h3 {
+        font-size: 2rem;
+      }
     }
     .banner-area {
-        margin: 50px 10vw 0 10vw;
-        .btn-light {
-            padding: 10px 15px;
-            font-size: 8vmin;
-        }
+      margin: 50px 10vw 0 10vw;
+      .btn-light {
+        padding: 10px 15px;
+        font-size: 8vmin;
+      }
     }
     .faq-area {
-        #accordion {
-            a {
-                font-size: 4.2vmin;
-            }
-        } 
-    }
-}
-
-
-@media only screen and (max-width: 425px) {
-    .newsletter-area {
-        .btn {
-            padding-left: 15px;
-            padding-right: 15px;
+      #accordion {
+        a {
+          font-size: 4.2vmin;
         }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .newsletter-area {
+      .btn {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
     }
     .contact-area {
-        h3 {
-            font-size: 6vmin;
+      h3 {
+        font-size: 6vmin;
+      }
+      h2 {
+        font-size: 10vmin;
+      }
+      .info-holder {
+        h3,
+        h2,
+        p {
+          margin: 0 -100px;
         }
-        h2 {
-            font-size: 10vmin;
-        }
-        .info-holder {
-            h3,
-            h2,
-            p {
-                margin: 0 -100px;
-            }
-    
-        }
+      }
     }
-}
-
-@media only screen and (max-width: 320px) {
+  }
+  
+  @media only screen and (max-width: 320px) {
     header {
-        span {
-            transform: translate(-50%, 10%);
+      span {
+        transform: translate(-50%, 10%);
+      }
+      .logo-holder {
+        & > h3 {
+          font-size: 2rem;
         }
-        .logo-holder {
-            & > h3 {
-                font-size: 2rem;
-            }
-        }
+      }
     }
     .banner-info {
-        h1 {
-            font-size: 3rem;
-            transform: translateX(-50px);
-        }
-        p {
-            transform: translateX(-50px);
-        }
+      h1 {
+        font-size: 3rem;
+        transform: translateX(-50px);
+      }
+      p {
+        transform: translateX(-50px);
+      }
     }
     .how-works {
-        .btn {
-            transform: translateX(-50px);
+      .btn {
+        transform: translateX(-50px);
+      }
+      .card {
+        width: 200% !important;
+        left: -20%;
+        h3 {
+          font-size: 5vmin;
         }
-        .card {
-            width: 200% !important;
-            left: -20%;
-            h3 {
-                font-size: 5vmin;
-            }
-        }
+      }
     }
     .features-area {
-        margin-top: 200px;
+      margin-top: 200px;
     }
-}
+  }
+  
